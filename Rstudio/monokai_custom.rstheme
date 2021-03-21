@@ -36,7 +36,7 @@
   background-color: #272727
 }
 .ace_marker-layer .ace_selected-word {
-  border: 1px solid #FF0000
+  border: 1px solid #FFFFFF
 }
 .ace_invisible {
   color: #52524d
