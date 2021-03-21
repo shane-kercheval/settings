@@ -1,0 +1,23 @@
+snippet exit
+    knitr::knit_exit()
+
+snippet group
+    group_by(${1:group}) %>%
+    summarise(${2:summary}) %>%
+    ungroup()${3}
+
+snippet theme
+    theme(legend.position = 'none',
+          axis.text.x=element_text(angle=30, hjust=1)) +
+
+snippet labs
+    labs(title="${1}",
+         subtitle="${2}",
+         x="${3}",
+         y="${4}")
+
+snippet scale_fill
+    scale_fill_manual(values=${1:rt_colors()}) +
+
+snippet scale
+    scale_y_continuous(labels=${1:rt_pretty_numbers_short}, breaks = ${2:pretty_breaks(10)}) +
