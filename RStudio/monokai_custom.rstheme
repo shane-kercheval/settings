@@ -109,7 +109,7 @@
 .ace_marker-layer .ace_foreign_line {
   position: absolute;
   z-index: -1;
-  background-color: #3C3D37;
+  background-color: #2d2e27;
 }
 .ace_node-selector {
   background-color: #fb6f1c
