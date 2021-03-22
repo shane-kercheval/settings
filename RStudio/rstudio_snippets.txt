@@ -16,6 +16,9 @@ snippet labs
          x="${3}",
          y="${4}")
 
+snippet col
+    geom_col(alpha=${1:0.8})${2: +}
+
 snippet scale_fill
     scale_fill_manual(values=${1:rt_colors()}) +
 
