@@ -6,21 +6,33 @@ snippet group
     summarise(${2:summary}) %>%
     ungroup()${3}
 
-snippet theme
+snippet ggp
+    ggplot(aes(x=${1}, y=${2})) +
+    ${3}
+
+snippet ggtext
+    geom_text(aes(label=map_chr(${1:y}, ~ rs_pretty_numbers_short(.))), check_overlap = TRUE, vjust=-0.5) +
+    ${2}
+
+snippet ggtheme
     theme(legend.position = 'none',
           axis.text.x=element_text(angle=30, hjust=1)) +
 
-snippet labs
+snippet gglabs
     labs(title="${1}",
          subtitle="${2}",
          x="${3}",
          y="${4}")
 
-snippet col
+snippet ggcol
     geom_col(alpha=${1:0.8})${2: +}
 
-snippet scale_fill
+snippet ggscale
+    scale_y_continuous(labels=${1:rt_pretty_numbers_short}, breaks = ${2:pretty_breaks(10)}) +
+
+snippet ggscale_fill
     scale_fill_manual(values=${1:rt_colors()}) +
 
-snippet scale
-    scale_y_continuous(labels=${1:rt_pretty_numbers_short}, breaks = ${2:pretty_breaks(10)}) +
+snippet ggplot_grid
+    gridExtra::grid.arrange(plot_1 + theme(legend.position = 'none'), plot_2,
+                            ncol=2, widths=c(8,10))
