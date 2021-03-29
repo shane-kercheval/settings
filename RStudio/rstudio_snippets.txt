@@ -1,6 +1,9 @@
 snippet exit
     knitr::knit_exit()
 
+snippet countwt
+    count(${1}, wt=${2}, name='${2}')${3}
+
 snippet group
     group_by(${1:group}) %>%
     summarise(${2:summary}) %>%
@@ -11,7 +14,7 @@ snippet ggp
     ${3}
 
 snippet ggtext
-    geom_text(aes(label=map_chr(${1:y}, ~ rs_pretty_numbers_short(.))), check_overlap = TRUE, vjust=-0.5) +
+    geom_text(aes(label=map_chr(${1:y}, ~ rs_pretty_numbers_short(.))), check_overlap = TRUE, vjust=-0.2) +
     ${2}
 
 snippet ggtheme
