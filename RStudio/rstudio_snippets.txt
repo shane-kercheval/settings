@@ -18,7 +18,8 @@ snippet ggtext
     ${2}
 
 snippet ggtheme
-    theme(legend.position = 'none',
+    theme(aspect.ratio = 1/1.61803398875,
+          legend.position = 'none',
           axis.text.x=element_text(angle=30, hjust=1)) +
 
 snippet gglabs
@@ -37,5 +38,8 @@ snippet ggscale_fill
     scale_fill_manual(values=${1:rt_colors()}) +
 
 snippet ggplot_grid
-    gridExtra::grid.arrange(plot_1 + theme(legend.position = 'none'), plot_2,
+    gridExtra::grid.arrange(plot_1 + theme(legend.position = 'none'),
+                            plot_2,
                             ncol=2, widths=c(8,10))
+    rm(plot_1)
+    rm(plot_2)
