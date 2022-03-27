@@ -1,0 +1,8 @@
+alias nlp='cd ~/repos/nlp-template'
+alias dst='cd ~/repos/data-science-template'
+alias helpsk='cd ~/repos/python-helpers'
+alias virt='source .venv/bin/activate'
+alias jup='jupyter notebook'
+alias keepawake='caffeinate -d -t 86400'
+alias keepawake9='caffeinate -d -t 32400'
+alias keepawake1='caffeinate -d -t 3600'
