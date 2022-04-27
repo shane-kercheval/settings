@@ -1,0 +1,53 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+    "detect_indentation": true,
+    "file_exclude_patterns":
+    [
+        "*.Rproj*",
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.class",
+        "*.psd",
+        "*.db",
+        "*.sublime-workspace"
+    ],
+    "folder_exclude_patterns":
+    [
+        "*.Rproj*",
+        ".Rproj.user",
+        "node_modules",
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS"
+    ],
+    "font_size": 12,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "rulers":
+    [
+        110
+    ],
+    "scroll_past_end": true,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": "false",
+    "color_scheme": "Mariana.sublime-color-scheme",
+}
