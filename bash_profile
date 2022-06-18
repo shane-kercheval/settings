@@ -9,3 +9,4 @@ alias keepawake3='caffeinate -d -t 10800'
 alias keepawake9='caffeinate -d -t 32400'
 alias browser5000='open http://127.0.0.1:5000'
 alias pylinecount="find . -name '*.py' | xargs wc -l"
+alias sshlambda="ssh shane@lambda-quad-shane.local"
