@@ -1,0 +1,8 @@
+    "f-string": {
+		"scope": "python",
+		"prefix": "f",
+		"body": [
+			"f\"{$1} $2\"$0"
+		],
+		"description": "insert f-string"
+	}
