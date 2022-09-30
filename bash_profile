@@ -36,3 +36,42 @@ alias conda_rollback="conda install --revision 0"
 conda_remove() {
     conda env remove -n $1
 }
+
+####
+# Profiling
+####
+# Run cProfile on python file (first argument) and optional output file (optional second argument)
+profile_file() {
+    if [[ "$2" != "" ]]
+    then
+        python -m cProfile -o $2 $1
+    else
+        python -m cProfile -o profile.stats $1
+    fi
+    
+}
+# Run visualize profile output from cProfile
+profile_viz() {
+    if [[ "$1" != "" ]]
+    then
+        snakeviz $1
+    else
+        snakeviz profile.stats
+    fi
+}
+# profile a function
+# must add @profile to function
+# optionally add this to file:
+# ----
+# try:
+#     profile
+# except NameError:
+#     profile = lambda x: x
+# ----
+profile_function() {
+    kernprof -l -v $1
+}
+
+profile_memory() {
+    python -m memory_profiler $1
+}
