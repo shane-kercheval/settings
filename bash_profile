@@ -29,10 +29,10 @@ conda_create() {
     conda create --name $1 python=$2
 }
 
+alias conda_install_packages="conda install jupyter notebook dask distributed pandas numpy flake8 plotly pytest scikit-learn scipy"
 alias conda_export="conda env export > environment.yml"
+alias conda_rollback="conda install --revision 0"
 
 conda_remove() {
     conda env remove -n $1
 }
-
-conda_rollback="conda install --revision 0"
