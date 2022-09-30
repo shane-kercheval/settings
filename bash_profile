@@ -13,7 +13,26 @@ alias browser1234='open http://127.0.0.1:1234'
 alias pylinecount="find . -name '*.py' | xargs wc -l"
 alias sshlambda="ssh shane@lambda-quad-shane.local"
 
+browser() {
+    open http://127.0.0.1:$1
+}
+
 # https://superuser.com/questions/1213886/how-to-open-port-via-ssh-tunnel
-ssh_port () {
+ssh_port() {
     ssh -NL $1:127.0.0.1:$1 shane@lambda-quad-shane.local
 }
+
+####
+# Conda
+####
+conda_create() {
+    conda create --name $1 python=$2
+}
+
+alias conda_export="conda env export > environment.yml"
+
+conda_remove() {
+    conda env remove -n $1
+}
+
+conda_rollback="conda install --revision 0"
