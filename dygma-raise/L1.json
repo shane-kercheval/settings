@@ -320,10 +320,10 @@
       "label": "/"
     },
     {
-      "keyCode": 229,
-      "label": "SHIFT",
-      "extraLabel": "RIGHT",
-      "verbose": "Right Shift"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 224,
@@ -342,12 +342,20 @@
       "verbose": "Left Command"
     },
     {
-      "keyCode": 2093,
-      "label": "_"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 40,
-      "label": "ENTER"
+      "keyCode": 46,
+      "label": "="
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -360,47 +368,49 @@
       "label": "_"
     },
     {
-      "keyCode": 46,
-      "label": "="
-    },
-    {
-      "keyCode": 49162,
+      "keyCode": 17451,
       "label": "2",
-      "extraLabel": "OSL"
+      "extraLabel": "SHIFT"
     },
     {
-      "keyCode": 76,
-      "label": "DEL"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 44,
       "label": "SPACE"
     },
     {
-      "keyCode": 42,
-      "label": "BACKSPACE",
-      "verbose": "Backspace"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 230,
-      "label": "RIGHT ⌥",
-      "extraLabel": "",
-      "verbose": "AltGr"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 231,
-      "label": "RIGHT ⌘",
-      "verbose": "Right Command"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 101,
-      "label": "MENU"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 228,
-      "label": "CTRL",
-      "extraLabel": "RIGHT",
-      "verbose": "Right Control"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     }
   ],
   "colormap": [
@@ -433,9 +443,9 @@
     3,
     3,
     3,
-    3,
-    4,
+    14,
     10,
+    14,
     10,
     13,
     3,
@@ -459,19 +469,19 @@
     11,
     12,
     11,
-    3,
+    14,
     3,
     3,
     3,
     11,
     11,
-    3,
-    3,
-    3,
-    3,
-    13,
+    14,
+    14,
+    14,
+    14,
+    14,
     1,
-    13,
+    14,
     0,
     2,
     2,
