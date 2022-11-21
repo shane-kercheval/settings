@@ -397,12 +397,10 @@
       "verbose": "Left Command"
     },
     {
-      "keyCode": 44,
-      "label": "SPACE"
-    },
-    {
-      "keyCode": 44,
-      "label": "SPACE"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -416,124 +414,131 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 51514,
-      "label": "ENTER",
-      "extraLabel": "L#2/"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 44,
+      "label": "SPACE"
+    },
+    {
+      "keyCode": 44,
+      "label": "SPACE"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 65535,
       "label": "",
       "extraLabel": "TRANS",
       "verbose": "Transparent"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 44,
-      "label": "SPACE"
-    },
-    {
-      "keyCode": 44,
-      "label": "SPACE"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
     }
   ],
   "colormap": [
-    4,
+    3,
     8,
     8,
     8,
     8,
     8,
     8,
-    4,
+    3,
     15,
     9,
     0,
     9,
     10,
-    7,
+    3,
     8,
     0,
     0,
     0,
     10,
-    4,
+    3,
     15,
     7,
     7,
     4,
     4,
     1,
-    4,
-    4,
-    4,
-    1,
-    1,
+    3,
+    3,
+    3,
+    14,
+    14,
+    14,
+    14,
     5,
-    6,
-    5,
     8,
     8,
     8,
     8,
     8,
     8,
-    12,
+    14,
     15,
-    12,
-    12,
-    12,
-    11,
-    12,
+    14,
+    14,
+    14,
+    13,
+    14,
     12,
     15,
     15,
+    14,
+    13,
+    13,
+    13,
     12,
-    11,
-    11,
-    11,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
     12,
     12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
+    14,
     3,
     6,
     6,
@@ -619,34 +624,46 @@
       "rgb": "rgb(255, 255, 255)"
     },
     {
-      "r": 231,
+      "r": 223,
       "g": 255,
-      "b": 0,
-      "rgb": "rgb(231, 255, 0)"
+      "b": 223,
+      "rgb": "rgb(223, 255, 223)"
     },
     {
       "r": 0,
       "g": 254,
-      "b": 234,
-      "rgb": "rgb(0, 254, 234)"
+      "b": 0,
+      "rgb": "rgb(0, 254, 0)"
+    },
+    {
+      "r": 52,
+      "g": 255,
+      "b": 255,
+      "rgb": "rgb(52, 255, 255)"
     },
     {
       "r": 0,
-      "g": 52,
-      "b": 255,
-      "rgb": "rgb(0, 52, 255)"
+      "g": 232,
+      "b": 87,
+      "rgb": "rgb(0, 232, 87)"
     },
     {
-      "r": 255,
+      "r": 164,
+      "g": 255,
+      "b": 144,
+      "rgb": "rgb(164, 255, 144)"
+    },
+    {
+      "r": 190,
+      "g": 255,
+      "b": 241,
+      "rgb": "rgb(190, 255, 241)"
+    },
+    {
+      "r": 0,
       "g": 0,
-      "b": 232,
-      "rgb": "rgb(255, 0, 232)"
-    },
-    {
-      "r": 87,
-      "g": 164,
-      "b": 255,
-      "rgb": "rgb(87, 164, 255)"
+      "b": 0,
+      "rgb": "rgb(0, 0, 0)"
     },
     {
       "r": 144,
@@ -655,34 +672,22 @@
       "rgb": "rgb(144, 19, 254)"
     },
     {
-      "r": 239,
-      "g": 219,
-      "b": 255,
-      "rgb": "rgb(239, 219, 255)"
+      "r": 131,
+      "g": 255,
+      "b": 247,
+      "rgb": "rgb(131, 255, 247)"
     },
     {
-      "r": 214,
-      "g": 129,
-      "b": 255,
-      "rgb": "rgb(214, 129, 255)"
+      "r": 74,
+      "g": 144,
+      "b": 226,
+      "rgb": "rgb(74, 144, 226)"
     },
     {
       "r": 255,
-      "g": 9,
-      "b": 0,
-      "rgb": "rgb(255, 9, 0)"
-    },
-    {
-      "r": 0,
       "g": 0,
-      "b": 0,
-      "rgb": "rgb(0, 0, 0)"
-    },
-    {
-      "r": 0,
-      "g": 0,
-      "b": 0,
-      "rgb": "rgb(0, 0, 0)"
+      "b": 32,
+      "rgb": "rgb(255, 0, 32)"
     },
     {
       "r": 0,
