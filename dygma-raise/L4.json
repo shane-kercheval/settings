@@ -448,16 +448,12 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 68,
+      "label": "F11"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 69,
+      "label": "F12"
     },
     {
       "keyCode": 0,
@@ -540,8 +536,8 @@
     15,
     15,
     11,
-    14,
-    15,
+    0,
+    0,
     14,
     14,
     14,
