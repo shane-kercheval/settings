@@ -236,11 +236,6 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 53859,
-      "label": "open ",
-      "extraLabel": "MACRO"
-    },
-    {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
@@ -253,9 +248,16 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 53861,
-      "label": "open ",
-      "extraLabel": "MACRO"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -335,21 +337,6 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 53863,
-      "label": "open ",
-      "extraLabel": "MACRO"
-    },
-    {
-      "keyCode": 53860,
-      "label": "open ",
-      "extraLabel": "MACRO"
-    },
-    {
-      "keyCode": 53862,
-      "label": "open ",
-      "extraLabel": "MACRO"
-    },
-    {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
@@ -372,6 +359,23 @@
       "label": "KEY",
       "extraLabel": "NO",
       "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 2115,
+      "label": "F10",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 0,
@@ -508,17 +512,17 @@
     14,
     14,
     14,
-    9,
     14,
     14,
-    9,
+    14,
+    14,
     3,
     14,
     14,
     14,
-    9,
-    9,
-    9,
+    14,
+    14,
+    14,
     3,
     3,
     3,
@@ -537,23 +541,23 @@
     14,
     14,
     14,
-    12,
+    9,
     6,
-    12,
-    12,
+    9,
+    9,
     15,
     14,
     14,
     6,
     6,
     6,
-    12,
+    9,
     14,
     14,
     14,
     14,
     14,
-    14,
+    7,
     6,
     14,
     14,
@@ -682,10 +686,10 @@
       "rgb": "rgb(139, 87, 42)"
     },
     {
-      "r": 139,
-      "g": 87,
-      "b": 42,
-      "rgb": "rgb(139, 87, 42)"
+      "r": 189,
+      "g": 16,
+      "b": 224,
+      "rgb": "rgb(189, 16, 224)"
     },
     {
       "r": 144,
