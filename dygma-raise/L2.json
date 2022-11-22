@@ -453,8 +453,8 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 17452,
-      "label": "3",
+      "keyCode": 17453,
+      "label": "4",
       "extraLabel": "SHIFT"
     },
     {
@@ -464,10 +464,9 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 17452,
+      "label": "3",
+      "extraLabel": "SHIFT"
     },
     {
       "keyCode": 0,
@@ -559,9 +558,9 @@
     14,
     14,
     14,
-    14,
-    14,
     0,
+    14,
+    11,
     14,
     6,
     6,
@@ -683,10 +682,10 @@
       "rgb": "rgb(139, 87, 42)"
     },
     {
-      "r": 189,
-      "g": 16,
-      "b": 224,
-      "rgb": "rgb(189, 16, 224)"
+      "r": 139,
+      "g": 87,
+      "b": 42,
+      "rgb": "rgb(139, 87, 42)"
     },
     {
       "r": 144,

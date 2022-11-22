@@ -49,92 +49,24 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 58,
-      "label": "F1"
+      "keyCode": 4894,
+      "label": "1",
+      "extraLabel": "C+A+G+"
     },
     {
-      "keyCode": 59,
-      "label": "F2"
+      "keyCode": 4895,
+      "label": "2",
+      "extraLabel": "C+A+G+"
     },
     {
-      "keyCode": 60,
-      "label": "F3"
+      "keyCode": 4896,
+      "label": "3",
+      "extraLabel": "C+A+G+"
     },
     {
-      "keyCode": 61,
-      "label": "F4"
-    },
-    {
-      "keyCode": 62,
-      "label": "F5"
-    },
-    {
-      "keyCode": 63,
-      "label": "F6"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 64,
-      "label": "F7"
-    },
-    {
-      "keyCode": 65,
-      "label": "F8"
-    },
-    {
-      "keyCode": 66,
-      "label": "F9"
-    },
-    {
-      "keyCode": 67,
-      "label": "F10"
-    },
-    {
-      "keyCode": 68,
-      "label": "F11"
-    },
-    {
-      "keyCode": 69,
-      "label": "F12"
-    },
-    {
-      "keyCode": 104,
-      "label": "F13"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 4897,
+      "label": "4",
+      "extraLabel": "C+A+G+"
     },
     {
       "keyCode": 0,
@@ -215,6 +147,57 @@
       "verbose": "Disabled"
     },
     {
+      "keyCode": 6992,
+      "label": "←",
+      "extraLabel": "Hyper+"
+    },
+    {
+      "keyCode": 6994,
+      "label": "↑",
+      "extraLabel": "Hyper+"
+    },
+    {
+      "keyCode": 6991,
+      "label": "→",
+      "extraLabel": "Hyper+"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
@@ -243,6 +226,37 @@
       "label": "KEY",
       "extraLabel": "NO",
       "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 6736,
+      "label": "←",
+      "extraLabel": "A+S+G+"
+    },
+    {
+      "keyCode": 4944,
+      "label": "←",
+      "extraLabel": "C+A+G+"
+    },
+    {
+      "keyCode": 4870,
+      "label": "C",
+      "extraLabel": "C+A+G+"
+    },
+    {
+      "keyCode": 4943,
+      "label": "→",
+      "extraLabel": "C+A+G+"
+    },
+    {
+      "keyCode": 6735,
+      "label": "→",
+      "extraLabel": "A+S+G+"
     },
     {
       "keyCode": 65535,
@@ -425,10 +439,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 4873,
+      "label": "F",
+      "extraLabel": "C+A+G+"
     },
     {
       "keyCode": 65535,
@@ -499,46 +512,38 @@
   ],
   "colormap": [
     14,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    11,
+    11,
+    11,
+    11,
     14,
     14,
     14,
     14,
+    6,
+    11,
+    6,
     14,
     14,
+    11,
+    6,
+    11,
+    6,
+    11,
     14,
-    15,
-    15,
-    15,
-    15,
-    15,
-    14,
-    15,
-    15,
-    15,
     15,
     15,
     15,
     14,
     15,
     15,
-    15,
-    15,
     14,
     15,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    15,
+    15,
+    11,
     14,
+    15,
     14,
     14,
     14,
@@ -547,6 +552,14 @@
     14,
     14,
     14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
     15,
     15,
     15,
@@ -563,73 +576,73 @@
     15,
     15,
     15,
+    14,
     15,
     15,
     15,
-    15,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11
   ],
   "palette": [
     {
