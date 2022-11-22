@@ -320,10 +320,8 @@
       "label": "/"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 82,
+      "label": "↑"
     },
     {
       "keyCode": 224,
@@ -342,15 +340,12 @@
       "verbose": "Left Command"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 74,
+      "label": "HOME"
     },
     {
-      "keyCode": 53864,
-      "label": "end o",
-      "extraLabel": "MACRO"
+      "keyCode": 77,
+      "label": "END"
     },
     {
       "keyCode": 0,
@@ -396,22 +391,16 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 80,
+      "label": "←"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 81,
+      "label": "↓"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 79,
+      "label": "→"
     }
   ],
   "colormap": [
@@ -444,7 +433,7 @@
     3,
     3,
     3,
-    10,
+    6,
     6,
     10,
     10,
@@ -470,15 +459,15 @@
     11,
     12,
     11,
-    14,
+    9,
     3,
     3,
     3,
     11,
     11,
-    14,
-    14,
-    14,
+    9,
+    9,
+    9,
     14,
     6,
     6,
