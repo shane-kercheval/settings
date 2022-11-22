@@ -348,8 +348,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 2093,
-      "label": "_"
+      "keyCode": 53864,
+      "label": "end o",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -364,8 +365,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 46,
-      "label": "="
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 17451,
@@ -373,7 +376,7 @@
       "extraLabel": "SHIFT"
     },
     {
-      "keyCode": 53857,
+      "keyCode": 53865,
       "label": "over-",
       "extraLabel": "MACRO"
     },
@@ -382,8 +385,8 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 53864,
-      "label": "end o",
+      "keyCode": 53857,
+      "label": "over-",
       "extraLabel": "MACRO"
     },
     {
@@ -442,7 +445,7 @@
     3,
     3,
     10,
-    10,
+    6,
     10,
     10,
     13,
