@@ -238,9 +238,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 78,
-      "label": "PAGE DOWN",
-      "verbose": "Page Down"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -485,8 +486,8 @@
   ],
   "colormap": [
     13,
-    14,
-    14,
+    1,
+    1,
     14,
     14,
     14,
@@ -518,9 +519,9 @@
     14,
     14,
     5,
-    14,
-    14,
-    14,
+    1,
+    1,
+    1,
     14,
     14,
     14,
