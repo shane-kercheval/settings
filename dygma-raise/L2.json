@@ -251,10 +251,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53861,
+      "label": "open ",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -333,10 +332,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53863,
+      "label": "open ",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 53860,
@@ -344,10 +342,9 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53862,
+      "label": "open ",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -512,14 +509,14 @@
     9,
     14,
     14,
-    14,
+    9,
     3,
     14,
     14,
     14,
-    14,
     9,
-    14,
+    9,
+    9,
     3,
     3,
     3,
