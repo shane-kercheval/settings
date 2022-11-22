@@ -339,10 +339,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53860,
+      "label": "open ",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
