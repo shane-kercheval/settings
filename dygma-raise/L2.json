@@ -333,7 +333,7 @@
     },
     {
       "keyCode": 53863,
-      "label": "11",
+      "label": "open ",
       "extraLabel": "MACRO"
     },
     {
@@ -423,10 +423,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53855,
+      "label": "VS-te",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 42,
@@ -434,13 +433,14 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 53856,
-      "label": "VS-la",
-      "extraLabel": "MACRO"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 53855,
-      "label": "VS-te",
+      "keyCode": 53856,
+      "label": "VS-la",
       "extraLabel": "MACRO"
     },
     {
