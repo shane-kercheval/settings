@@ -187,18 +187,18 @@
       "extraLabel": "G+"
     },
     {
-      "keyCode": 75,
-      "label": "PAGE UP",
-      "verbose": "Page Up"
+      "keyCode": 53866,
+      "label": "up-fi",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 82,
       "label": "↑"
     },
     {
-      "keyCode": 78,
-      "label": "PAGE DOWN",
-      "verbose": "Page Down"
+      "keyCode": 53867,
+      "label": "down-",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
