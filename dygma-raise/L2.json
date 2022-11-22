@@ -425,16 +425,14 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53856,
+      "label": "VS-la",
+      "extraLabel": "MACRO"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53855,
+      "label": "VS-te",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -516,8 +514,8 @@
     3,
     14,
     14,
-    14,
-    14,
+    5,
+    5,
     5,
     1,
     1,
@@ -546,7 +544,7 @@
     14,
     14,
     14,
-    11,
+    5,
     14,
     14,
     14,
