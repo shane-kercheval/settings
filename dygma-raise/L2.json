@@ -316,9 +316,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 4869,
-      "label": "B",
-      "extraLabel": "C+A+G+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -389,10 +390,9 @@
       "verbose": "Left Command"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 4869,
+      "label": "B",
+      "extraLabel": "C+A+G+"
     },
     {
       "keyCode": 53856,
@@ -484,7 +484,7 @@
     14,
     14,
     14,
-    7,
+    14,
     2,
     2,
     2,
