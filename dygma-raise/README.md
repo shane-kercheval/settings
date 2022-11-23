@@ -21,3 +21,6 @@ Light Blue keys are shortcuts for visual studio
 - key `;`: `SF10` - in Visual Studio shift-F10 is a shortcut to bring up the context menu
 - key `\`: `a-c-os-\` - Split Window - manually configured shortcut in VS-code
 - key `B`: `a-c-os-B` - Toggle Breakpoint - manually configured shortcut in VS-code 
+
+- `VS-la`: VS Code - Go to Last Edit
+- `VS-te`: VS Code - Toggle/Go-To Terminal
