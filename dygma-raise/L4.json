@@ -434,9 +434,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 4870,
-      "label": "C",
-      "extraLabel": "C+A+G+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 4873,
@@ -450,12 +451,15 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 68,
-      "label": "F11"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 69,
-      "label": "F12"
+      "keyCode": 4870,
+      "label": "C",
+      "extraLabel": "C+A+G+"
     },
     {
       "keyCode": 0,
@@ -536,10 +540,10 @@
     14,
     15,
     15,
+    14,
     11,
+    14,
     11,
-    0,
-    0,
     14,
     14,
     14,

@@ -48,32 +48,28 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 23664,
-      "label": "Bright -",
-      "extraLabel": "Display"
+      "keyCode": 58,
+      "label": "F1"
     },
     {
-      "keyCode": 23663,
-      "label": "Bright +",
-      "extraLabel": "Display"
+      "keyCode": 59,
+      "label": "F2"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 60,
+      "label": "F3"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 61,
+      "label": "F4"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 62,
+      "label": "F5"
+    },
+    {
+      "keyCode": 63,
+      "label": "F6"
     },
     {
       "keyCode": 0,
@@ -88,46 +84,28 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 64,
+      "label": "F7"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 65,
+      "label": "F8"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 66,
+      "label": "F9"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 67,
+      "label": "F10"
     },
     {
-      "keyCode": 19682,
-      "label": "🔇",
-      "extraLabel": "",
-      "verbose": "MUTE"
+      "keyCode": 68,
+      "label": "F11"
     },
     {
-      "keyCode": 23786,
-      "label": "🔉",
-      "extraLabel": "",
-      "verbose": "Volume down"
-    },
-    {
-      "keyCode": 23785,
-      "label": "🔊",
-      "extraLabel": "",
-      "verbose": "Volume up"
+      "keyCode": 69,
+      "label": "F12"
     },
     {
       "keyCode": 42,
@@ -222,9 +200,8 @@
       "label": "ENTER"
     },
     {
-      "keyCode": 49226,
-      "label": "⇪",
-      "extraLabel": "CTRL/"
+      "keyCode": 41,
+      "label": "ESC"
     },
     {
       "keyCode": 0,
@@ -233,10 +210,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 6191,
+      "label": "[",
+      "extraLabel": "S+G+"
     },
     {
       "keyCode": 0,
@@ -245,10 +221,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 6192,
+      "label": "]",
+      "extraLabel": "S+G+"
     },
     {
       "keyCode": 0,
@@ -292,10 +267,9 @@
       "label": "→"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 2115,
+      "label": "F10",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 0,
@@ -370,15 +344,14 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 2115,
-      "label": "F10",
-      "extraLabel": "S+"
+      "keyCode": 53871,
+      "label": "VS-un",
+      "extraLabel": "MACRO"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53870,
+      "label": "VS-fo",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -473,10 +446,9 @@
       "extraLabel": "LOCK"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 17501,
+      "label": "10",
+      "extraLabel": "LOCK"
     },
     {
       "keyCode": 0,
@@ -492,23 +464,23 @@
   ],
   "colormap": [
     13,
-    10,
-    10,
-    14,
-    14,
-    14,
-    14,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     15,
     14,
     14,
     14,
     14,
     14,
+    13,
     14,
+    7,
     14,
-    14,
-    14,
-    14,
+    7,
     14,
     3,
     14,
@@ -525,12 +497,12 @@
     7,
     7,
     13,
-    10,
-    10,
-    10,
-    14,
-    14,
-    14,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     12,
     14,
     14,
@@ -541,7 +513,7 @@
     9,
     15,
     14,
-    14,
+    7,
     6,
     6,
     6,
@@ -550,11 +522,11 @@
     14,
     14,
     14,
-    14,
     7,
-    6,
+    7,
+    10,
     14,
-    14,
+    13,
     10,
     0,
     6,

@@ -43,9 +43,8 @@
   ],
   "keymap": [
     {
-      "keyCode": 57,
-      "label": "⇪",
-      "verbose": "Caps Lock"
+      "keyCode": 53,
+      "label": "`"
     },
     {
       "keyCode": 30,
@@ -385,9 +384,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 17501,
-      "label": "10",
-      "extraLabel": "LOCK"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 80,
@@ -467,7 +467,7 @@
     9,
     9,
     9,
-    13,
+    10,
     10,
     6,
     10,
