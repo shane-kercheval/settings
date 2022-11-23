@@ -43,10 +43,9 @@
   ],
   "keymap": [
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53853,
+      "label": "Lock ",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 4894,
@@ -511,7 +510,7 @@
     }
   ],
   "colormap": [
-    14,
+    13,
     11,
     11,
     11,

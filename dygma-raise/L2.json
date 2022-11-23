@@ -43,9 +43,8 @@
   ],
   "keymap": [
     {
-      "keyCode": 53853,
-      "label": "Lock ",
-      "extraLabel": "MACRO"
+      "keyCode": 41,
+      "label": "ESC"
     },
     {
       "keyCode": 58,
@@ -113,8 +112,8 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 41,
-      "label": "ESC"
+      "keyCode": 43,
+      "label": "TAB"
     },
     {
       "keyCode": 0,
@@ -198,8 +197,8 @@
       "label": "ENTER"
     },
     {
-      "keyCode": 43,
-      "label": "TAB"
+      "keyCode": 53,
+      "label": "`"
     },
     {
       "keyCode": 0,
@@ -448,14 +447,15 @@
       "verbose": "Disabled"
     },
     {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
       "keyCode": 17501,
       "label": "10",
       "extraLabel": "LOCK"
-    },
-    {
-      "keyCode": 53854,
-      "label": "Scree",
-      "extraLabel": "MACRO"
     }
   ],
   "colormap": [
@@ -466,7 +466,7 @@
     0,
     0,
     0,
-    13,
+    2,
     14,
     10,
     10,
@@ -520,8 +520,8 @@
     14,
     7,
     7,
-    10,
     13,
+    14,
     14,
     14,
     10,
