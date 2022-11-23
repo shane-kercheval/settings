@@ -430,8 +430,8 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 53855,
-      "label": "VS-te",
+      "keyCode": 53856,
+      "label": "VS-la",
       "extraLabel": "MACRO"
     },
     {
@@ -446,8 +446,8 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 53856,
-      "label": "VS-la",
+      "keyCode": 53855,
+      "label": "VS-te",
       "extraLabel": "MACRO"
     },
     {
