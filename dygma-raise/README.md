@@ -34,12 +34,25 @@ For example, I'm too old to be moving around backspace and enter even though tho
 - light blue keys are shortcuts for visual studio 
 - green/purple keys are navigation
 
+## Shortcuts
+
+### Visual Studio Shortcuts (blue)
+
 - key `;` i.e. `S-F10` - in Visual Studio `shift-F10` is a shortcut to bring up the context menu
 - key `\` i.e. `a-c-os-\` - Split Window - manually configured shortcut in VS-code
 - `a-c-os-B` - Toggle Breakpoint - manually configured shortcut in VS-code
 - `MACRO vs-de`: Debug Current Function
 - `MACRO VS-la`: VS Code - Go to Last Edit
 - `MACRO VS-te`: VS Code - Toggle/Go-To Terminal
+- key `n` i.e. `MACRO VS-un` - unfold code
+- key `m` i.e. `MACRO VS-fo` - fold code
+
+### Navigation
+
+- `MACRO up-fi`: move up `5` lines and go to the beginning of the line
+- `MACRO down`: move down `5` lines and go to the beginning of the line
+- `s-os-[`: go the previous tab (this works in VS Code or chrome, etc.)
+- `s-os-]`: go the next tab (this works in VS Code or chrome, etc.)
 
 ---
 
