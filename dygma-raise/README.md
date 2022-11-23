@@ -18,4 +18,5 @@ Layer 2
 
 Light Blue keys are shortcuts for visual studio 
 
-- SF10 - in Visual Studio shift-F10 is a shortcut to bring up the context menu
+- key `;`: `SF10` - in Visual Studio shift-F10 is a shortcut to bring up the context menu
+- key `\`: `a-c-os-\` - Split Window - manually configured shortcut in VS-code 

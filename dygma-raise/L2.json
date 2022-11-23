@@ -123,45 +123,43 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
       "keyCode": 4178,
       "label": "↑",
       "extraLabel": "G+"
+    },
+    {
+      "keyCode": 75,
+      "label": "PAGE UP",
+      "verbose": "Page Up"
+    },
+    {
+      "keyCode": 4177,
+      "label": "↓",
+      "extraLabel": "G+"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 53866,
@@ -215,10 +213,9 @@
       "extraLabel": "S+G+"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 78,
+      "label": "PAGE DOWN",
+      "verbose": "Page Down"
     },
     {
       "keyCode": 6192,
@@ -250,9 +247,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 4177,
-      "label": "↓",
-      "extraLabel": "G+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 80,
@@ -278,10 +276,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 4913,
+      "label": "\\",
+      "extraLabel": "C+A+G+"
     },
     {
       "keyCode": 225,
@@ -436,18 +433,8 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 17452,
-      "label": "3",
-      "extraLabel": "SHIFT"
-    },
-    {
       "keyCode": 17496,
       "label": "5",
-      "extraLabel": "LOCK"
-    },
-    {
-      "keyCode": 17501,
-      "label": "10",
       "extraLabel": "LOCK"
     },
     {
@@ -455,6 +442,17 @@
       "label": "KEY",
       "extraLabel": "NO",
       "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 17501,
+      "label": "10",
+      "extraLabel": "LOCK"
     },
     {
       "keyCode": 53854,
@@ -470,54 +468,54 @@
     0,
     0,
     0,
-    15,
+    2,
     14,
-    14,
-    14,
-    14,
+    10,
+    10,
+    10,
     14,
     13,
     14,
-    7,
+    10,
+    10,
+    10,
     14,
-    7,
-    14,
-    3,
-    14,
-    14,
+    2,
     14,
     14,
     14,
     14,
-    3,
-    3,
-    3,
-    7,
-    7,
+    14,
+    14,
+    2,
+    2,
+    2,
     7,
     7,
-    13,
+    7,
+    7,
+    2,
     0,
     0,
     0,
     0,
     0,
     0,
-    12,
+    2,
     14,
     14,
     14,
     9,
     6,
     9,
-    9,
-    15,
+    14,
+    7,
     14,
     7,
     6,
     6,
     6,
-    9,
+    14,
     14,
     14,
     14,
@@ -525,10 +523,10 @@
     7,
     7,
     10,
-    14,
     13,
+    14,
+    14,
     10,
-    0,
     6,
     11,
     14,
