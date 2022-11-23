@@ -355,12 +355,12 @@
     },
     {
       "keyCode": 53865,
-      "label": "13",
+      "label": "end-c",
       "extraLabel": "MACRO"
     },
     {
       "keyCode": 53857,
-      "label": "5",
+      "label": "end-e",
       "extraLabel": "MACRO"
     },
     {
@@ -403,7 +403,7 @@
     }
   ],
   "colormap": [
-    14,
+    2,
     2,
     2,
     2,
