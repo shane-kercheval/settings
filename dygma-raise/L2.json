@@ -113,8 +113,8 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 43,
-      "label": "TAB"
+      "keyCode": 41,
+      "label": "ESC"
     },
     {
       "keyCode": 0,
@@ -198,8 +198,8 @@
       "label": "ENTER"
     },
     {
-      "keyCode": 41,
-      "label": "ESC"
+      "keyCode": 43,
+      "label": "TAB"
     },
     {
       "keyCode": 0,
@@ -317,10 +317,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 4869,
+      "label": "B",
+      "extraLabel": "C+A+G+"
     },
     {
       "keyCode": 0,
@@ -407,10 +406,9 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53872,
+      "label": "vs-de",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 53855,
@@ -468,12 +466,6 @@
     0,
     0,
     0,
-    2,
-    14,
-    10,
-    10,
-    10,
-    14,
     13,
     14,
     10,
@@ -482,11 +474,17 @@
     14,
     2,
     14,
+    10,
+    10,
+    10,
+    14,
+    2,
     14,
     14,
     14,
     14,
     14,
+    7,
     2,
     2,
     2,
@@ -592,7 +590,7 @@
     6,
     6,
     6,
-    6
+    14
   ],
   "palette": [
     {

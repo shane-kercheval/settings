@@ -112,8 +112,8 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 43,
-      "label": "TAB"
+      "keyCode": 41,
+      "label": "ESC"
     },
     {
       "keyCode": 20,
@@ -180,8 +180,8 @@
       "label": "ENTER"
     },
     {
-      "keyCode": 41,
-      "label": "ESC"
+      "keyCode": 43,
+      "label": "TAB"
     },
     {
       "keyCode": 4,
@@ -410,13 +410,13 @@
     2,
     2,
     2,
-    2,
-    11,
-    11,
-    11,
-    11,
-    11,
     13,
+    11,
+    11,
+    11,
+    11,
+    11,
+    2,
     11,
     11,
     11,
