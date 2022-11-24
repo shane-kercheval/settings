@@ -297,22 +297,16 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 27,
+      "label": "X"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 6,
+      "label": "C"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 25,
+      "label": "V"
     },
     {
       "keyCode": 0,
@@ -480,9 +474,9 @@
     2,
     14,
     14,
-    14,
-    14,
-    14,
+    2,
+    2,
+    2,
     14,
     2,
     2,
