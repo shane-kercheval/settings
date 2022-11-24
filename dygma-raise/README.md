@@ -49,8 +49,8 @@ For example, I'm too old to be moving around backspace and enter even though tho
 
 ### Navigation
 
-- `MACRO up-fi`: move up `5` lines and go to the beginning of the line
-- `MACRO down`: move down `5` lines and go to the beginning of the line
+- `MACRO up-fi` (`up-five`): move up `5` lines and go to the beginning of the line
+- `MACRO down` (`down-five`): move down `5` lines and go to the beginning of the line
 - `s-os-[`: go the previous tab (this works in VS Code or chrome, etc.)
 - `s-os-]`: go the next tab (this works in VS Code or chrome, etc.)
 - `Lock 10`: goes to Layer 10 which is a linux version of layer 1
