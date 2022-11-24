@@ -55,4 +55,12 @@
 		],
 		"description": "insert doc-string"
     },
+    "with-open-read": {
+        "scope": "python",
+		"prefix": "with",
+		"body": [
+			"with open($1, 'r') as handle:\n    content = handle.readlines()\n    $0"
+		],
+		"description": "with open read"
+    },
 }
