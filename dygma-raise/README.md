@@ -25,7 +25,7 @@ For example, I'm too old to be moving around backspace and enter even though tho
 
 ---
 
-# Layer 2 - Navigation & Coding Shortings
+# Layer 2 - In-app Navigation & Coding Shortings
 
 ![layer2](images/layer-2.png)
 
@@ -36,7 +36,7 @@ For example, I'm too old to be moving around backspace and enter even though tho
 
 ## Shortcuts
 
-### Visual Studio Shortcuts (blue)
+### Visual Studio Shortcuts (light blue)
 
 - key `;` i.e. `S-F10` - in Visual Studio `shift-F10` is a shortcut to bring up the context menu
 - key `\` i.e. `a-c-os-\` - Split Window - manually configured shortcut in VS-code
@@ -53,6 +53,7 @@ For example, I'm too old to be moving around backspace and enter even though tho
 - `MACRO down`: move down `5` lines and go to the beginning of the line
 - `s-os-[`: go the previous tab (this works in VS Code or chrome, etc.)
 - `s-os-]`: go the next tab (this works in VS Code or chrome, etc.)
+- `Lock 10`: goes to Layer 10 which is a linux version of layer 1
 
 ---
 
