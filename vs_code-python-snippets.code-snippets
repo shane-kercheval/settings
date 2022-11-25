@@ -27,7 +27,7 @@
 		"scope": "python",
 		"prefix": "reset",
 		"body": [
-			"reset_index(drop=True, inplace=True)\n$0"
+			"$1.reset_index(drop=True, inplace=True)\n$0"
 		],
 		"description": "insert f-string"
 	},
