@@ -368,10 +368,9 @@
       "extraLabel": "SHIFT"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53874,
+      "label": "enter",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 44,
