@@ -19,7 +19,7 @@
 		"scope": "python",
 		"prefix": "f",
 		"body": [
-			"f\"{$1}$2\"$0"
+			"f\"$1{$2}$3\"$0"
 		],
 		"description": "insert f-string"
 	},
@@ -37,7 +37,7 @@
 		"body": [
 			"$1 = $1[$1.apply(lambda x: $2(x), axis=1)]. \\\n    reset_index(drop=True)\n$0"
 		],
-		"description": "insert f-string"
+		"description": "filter pandas dataframe"
     },
     "function-definition": {
         "scope": "python",
@@ -45,7 +45,7 @@
 		"body": [
 			"def $1($2):\n    $0"
 		],
-		"description": "insert f-string"
+		"description": "create function"
     },
     "doc-string": {
         "scope": "python",
