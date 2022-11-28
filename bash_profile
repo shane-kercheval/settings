@@ -30,7 +30,7 @@ conda_create() {
 }
 
 alias conda_install_packages="conda install jupyter notebook dask distributed pandas numpy flake8 plotly pytest scikit-learn scipy"
-alias conda_export="conda env export > environment.yml"
+alias conda_export="conda env export --no-builds > environment.yml"
 alias conda_rollback="conda install --revision 0"
 
 conda_remove() {
