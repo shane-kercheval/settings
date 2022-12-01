@@ -331,13 +331,13 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 53871,
-      "label": "VS-un",
+      "keyCode": 53870,
+      "label": "vs-fo",
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 53870,
-      "label": "VS-fo",
+      "keyCode": 53871,
+      "label": "vs-un",
       "extraLabel": "MACRO"
     },
     {
