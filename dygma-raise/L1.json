@@ -339,20 +339,6 @@
       "verbose": "Left Command"
     },
     {
-      "keyCode": 74,
-      "label": "HOME"
-    },
-    {
-      "keyCode": 77,
-      "label": "END"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
       "keyCode": 53874,
       "label": "home-",
       "extraLabel": "MACRO"
@@ -361,6 +347,20 @@
       "keyCode": 53873,
       "label": "space",
       "extraLabel": "MACRO"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 74,
+      "label": "HOME"
+    },
+    {
+      "keyCode": 77,
+      "label": "END"
     },
     {
       "keyCode": 17451,
@@ -430,10 +430,10 @@
     2,
     2,
     2,
-    6,
-    6,
     10,
     10,
+    6,
+    6,
     13,
     2,
     2,
