@@ -353,13 +353,13 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 53865,
-      "label": "end-c",
+      "keyCode": 53874,
+      "label": "home-",
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 53857,
-      "label": "end-e",
+      "keyCode": 53873,
+      "label": "space",
       "extraLabel": "MACRO"
     },
     {
@@ -368,8 +368,8 @@
       "extraLabel": "SHIFT"
     },
     {
-      "keyCode": 53874,
-      "label": "enter",
+      "keyCode": 53865,
+      "label": "end-c",
       "extraLabel": "MACRO"
     },
     {
@@ -377,8 +377,8 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 53858,
-      "label": "self",
+      "keyCode": 53857,
+      "label": "end-e",
       "extraLabel": "MACRO"
     },
     {
