@@ -368,8 +368,8 @@
       "extraLabel": "SHIFT"
     },
     {
-      "keyCode": 53865,
-      "label": "end-c",
+      "keyCode": 53857,
+      "label": "end-e",
       "extraLabel": "MACRO"
     },
     {
@@ -377,15 +377,14 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 53857,
-      "label": "end-e",
+      "keyCode": 53873,
+      "label": "space",
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53874,
+      "label": "home-",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 80,
@@ -466,7 +465,7 @@
     6,
     6,
     10,
-    10,
+    12,
     12,
     10,
     0,
