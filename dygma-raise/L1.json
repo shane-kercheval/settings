@@ -339,14 +339,13 @@
       "verbose": "Left Command"
     },
     {
-      "keyCode": 53874,
-      "label": "home-",
+      "keyCode": 53875,
+      "label": "asser",
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 53873,
-      "label": "space",
-      "extraLabel": "MACRO"
+      "keyCode": 44,
+      "label": "SPACE"
     },
     {
       "keyCode": 0,
@@ -377,9 +376,9 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 53873,
+      "keyCode": 53980,
       "label": "space",
-      "extraLabel": "MACRO"
+      "extraLabel": "SUPER"
     },
     {
       "keyCode": 53874,
@@ -430,7 +429,7 @@
     2,
     2,
     10,
-    10,
+    12,
     6,
     6,
     13,
