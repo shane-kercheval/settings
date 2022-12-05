@@ -367,9 +367,9 @@
       "extraLabel": "SHIFT"
     },
     {
-      "keyCode": 53857,
-      "label": "end-e",
-      "extraLabel": "MACRO"
+      "keyCode": 53981,
+      "label": "end e",
+      "extraLabel": "SUPER"
     },
     {
       "keyCode": 44,
