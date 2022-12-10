@@ -23,22 +23,30 @@
 		],
 		"description": "insert f-string"
 	},
-    "reset-index": {
+    "pandas-reset-index": {
 		"scope": "python",
 		"prefix": "reset",
 		"body": [
-			"$1.reset_index(drop=True, inplace=True)\n$0"
+			"$1 = $1.reset_index(drop=True)\n$0"
 		],
-		"description": "insert f-string"
+		"description": "pandas - reset index"
 	},
-    "pandas filter": {
+    "pandas-filter": {
         "scope": "python",
 		"prefix": "pdfilter",
 		"body": [
 			"$1 = $1[$1.apply(lambda x: $2(x), axis=1)]. \\\n    reset_index(drop=True)\n$0"
 		],
-		"description": "filter pandas dataframe"
+		"description": "pandas - filter dataframe"
     },
+    "pandas-to-csv": {
+		"scope": "python",
+		"prefix": "csv",
+		"body": [
+			"$1.to_csv($2, index=False)\n$0"
+		],
+		"description": "pandas - to csv"
+	},
     "function-definition": {
         "scope": "python",
 		"prefix": "def",
