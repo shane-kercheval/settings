@@ -51,7 +51,7 @@
         "scope": "python",
 		"prefix": "def",
 		"body": [
-			"def $1($2):\n    $0"
+			"def $1($2) -> $3:\n    $0"
 		],
 		"description": "create function"
     },
@@ -59,15 +59,15 @@
         "scope": "python",
 		"prefix": "doc",
 		"body": [
-			"\"\"\"\nDescription$1\n\n>>> print(1)\n1\n\nArgs:\n    arg: description\n\"\"\"\n$0"
+			"\"\"\"\n${1:Description}\n\n>>> print(1)\n1\n\nArgs:\n    ${2:arg}: ${3:description}\n\"\"\"\n$0"
 		],
 		"description": "insert doc-string"
     },
     "with-open-read": {
         "scope": "python",
-		"prefix": "with",
+		"prefix": "open",
 		"body": [
-			"with open($1, 'r') as handle:\n    content = handle.readlines()\n    $0"
+			"with open($1, '${2:r}') as handle:\n    ${3:content} = handle.readlines()\n    $0"
 		],
 		"description": "with open read"
     },
