@@ -51,7 +51,7 @@
         "scope": "python",
 		"prefix": "def",
 		"body": [
-			"def $1($2) -> $3:\n    $0"
+			"def ${1:func}(${2:arg}: ${3:type}) -> ${4:return_type}:\n    $0"
 		],
 		"description": "create function"
     },
@@ -67,7 +67,7 @@
         "scope": "python",
 		"prefix": "open",
 		"body": [
-			"with open($1, '${2:r}') as handle:\n    ${3:content} = handle.readlines()\n    $0"
+			"with open(${1:file_name}, '${2:r}') as handle:\n    ${3:content} = handle.readlines()\n    $0"
 		],
 		"description": "with open read"
     },
