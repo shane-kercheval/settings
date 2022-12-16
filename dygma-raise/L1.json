@@ -377,8 +377,8 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 53980,
-      "label": "space",
+      "keyCode": 53981,
+      "label": "end e",
       "extraLabel": "SUPER"
     },
     {
@@ -465,7 +465,7 @@
     6,
     6,
     10,
-    12,
+    10,
     12,
     10,
     0,
