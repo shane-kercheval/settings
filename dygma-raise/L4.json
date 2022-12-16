@@ -132,9 +132,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 53854,
-      "label": "Scree",
-      "extraLabel": "MACRO"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 0,
@@ -434,10 +435,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53854,
+      "label": "Scree",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 65535,
@@ -514,7 +514,7 @@
     11,
     6,
     6,
-    10,
+    14,
     14,
     6,
     6,
@@ -537,7 +537,7 @@
     15,
     14,
     14,
-    14,
+    10,
     14,
     14,
     14,
