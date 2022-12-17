@@ -368,9 +368,9 @@
       "extraLabel": "SHIFT"
     },
     {
-      "keyCode": 53981,
-      "label": "end e",
-      "extraLabel": "SUPER"
+      "keyCode": 17453,
+      "label": "4",
+      "extraLabel": "SHIFT"
     },
     {
       "keyCode": 44,
@@ -467,7 +467,7 @@
     10,
     10,
     12,
-    10,
+    0,
     0,
     2,
     2,
