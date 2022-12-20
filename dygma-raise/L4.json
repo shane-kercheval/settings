@@ -474,14 +474,14 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 4870,
-      "label": "C",
-      "extraLabel": "C+A+G+"
-    },
-    {
       "keyCode": 6994,
       "label": "↑",
       "extraLabel": "Hyper+"
+    },
+    {
+      "keyCode": 4870,
+      "label": "C",
+      "extraLabel": "C+A+G+"
     },
     {
       "keyCode": 0,
@@ -574,7 +574,7 @@
     15,
     15,
     14,
-    6,
+    11,
     11,
     14,
     11,
