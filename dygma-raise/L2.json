@@ -341,26 +341,24 @@
       "verbose": "Disabled"
     },
     {
+      "keyCode": 53878,
+      "label": "VS Fo",
+      "extraLabel": "MACRO"
+    },
+    {
       "keyCode": 53870,
-      "label": "vs-fo",
+      "label": "VS-fo",
       "extraLabel": "MACRO"
     },
     {
       "keyCode": 53871,
-      "label": "vs-un",
+      "label": "VS-un",
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53877,
+      "label": "VS Un",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -506,11 +504,11 @@
     12,
     6,
     6,
-    6,
+    9,
     9,
     6,
     9,
-    6,
+    9,
     7,
     7,
     7,
@@ -520,8 +518,8 @@
     13,
     14,
     14,
-    14,
-    14,
+    7,
+    7,
     7,
     7,
     13,
