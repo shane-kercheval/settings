@@ -342,7 +342,7 @@
     },
     {
       "keyCode": 53878,
-      "label": "VS Fo",
+      "label": "26",
       "extraLabel": "MACRO"
     },
     {
@@ -357,7 +357,7 @@
     },
     {
       "keyCode": 53877,
-      "label": "VS Un",
+      "label": "25",
       "extraLabel": "MACRO"
     },
     {
@@ -367,10 +367,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 2325,
+      "label": "R",
+      "extraLabel": "C+S+"
     },
     {
       "keyCode": 65535,
@@ -516,7 +515,7 @@
     6,
     6,
     13,
-    14,
+    7,
     14,
     7,
     7,
