@@ -323,10 +323,8 @@
       "label": "↑"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 69,
+      "label": "F12"
     },
     {
       "keyCode": 224,
@@ -383,7 +381,7 @@
     },
     {
       "keyCode": 53874,
-      "label": "enter",
+      "label": "home-",
       "extraLabel": "MACRO"
     },
     {
@@ -426,7 +424,7 @@
     11,
     11,
     11,
-    14,
+    0,
     2,
     2,
     2,
