@@ -161,10 +161,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 2357,
+      "label": "`",
+      "extraLabel": "C+S+"
     },
     {
       "keyCode": 65535,
@@ -236,10 +235,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 4913,
+      "label": "\\",
+      "extraLabel": "C+A+G+"
     },
     {
       "keyCode": 53872,
@@ -520,10 +518,10 @@
     14,
     14,
     14,
+    7,
     14,
     14,
-    14,
-    14,
+    7,
     7,
     7,
     14,
