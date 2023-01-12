@@ -318,9 +318,10 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 4869,
-      "label": "B",
-      "extraLabel": "C+A+G+"
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
     },
     {
       "keyCode": 0,
@@ -396,9 +397,8 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 53856,
-      "label": "VS-la",
-      "extraLabel": "MACRO"
+      "keyCode": 44,
+      "label": "SPACE"
     },
     {
       "keyCode": 42,
@@ -406,9 +406,22 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 53872,
-      "label": "vs-de",
-      "extraLabel": "MACRO"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
+    },
+    {
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 53855,
@@ -416,42 +429,28 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 17453,
-      "label": "4",
-      "extraLabel": "SHIFT"
-    },
-    {
       "keyCode": 44,
       "label": "SPACE"
+    },
+    {
+      "keyCode": 53856,
+      "label": "VS-la",
+      "extraLabel": "MACRO"
+    },
+    {
+      "keyCode": 53872,
+      "label": "vs-de",
+      "extraLabel": "MACRO"
+    },
+    {
+      "keyCode": 4869,
+      "label": "B",
+      "extraLabel": "C+A+G+"
     },
     {
       "keyCode": 17496,
       "label": "5",
       "extraLabel": "LOCK"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
     },
     {
       "keyCode": 17501,
@@ -485,22 +484,22 @@
     2,
     2,
     2,
-    7,
     2,
     2,
     2,
     2,
-    7,
-    7,
-    7,
     2,
+    2,
+    14,
+    14,
+    13,
     0,
     0,
     0,
     0,
     0,
     0,
-    12,
+    2,
     6,
     6,
     9,
@@ -522,12 +521,12 @@
     7,
     7,
     13,
-    14,
-    14,
-    14,
-    10,
-    12,
-    11,
+    13,
+    5,
+    5,
+    8,
+    2,
+    8,
     14,
     6,
     6,
@@ -625,10 +624,10 @@
       "rgb": "rgb(139, 87, 42)"
     },
     {
-      "r": 139,
-      "g": 87,
-      "b": 42,
-      "rgb": "rgb(139, 87, 42)"
+      "r": 137,
+      "g": 255,
+      "b": 0,
+      "rgb": "rgb(137, 255, 0)"
     },
     {
       "r": 0,

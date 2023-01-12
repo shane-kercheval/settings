@@ -353,12 +353,14 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 74,
-      "label": "HOME"
+      "keyCode": 53981,
+      "label": "end e",
+      "extraLabel": "SUPER"
     },
     {
-      "keyCode": 77,
-      "label": "END"
+      "keyCode": 53874,
+      "label": "home-",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 17451,
@@ -375,14 +377,16 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 53981,
-      "label": "end e",
-      "extraLabel": "SUPER"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 53874,
-      "label": "home-",
-      "extraLabel": "MACRO"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 80,
@@ -429,8 +433,8 @@
     2,
     2,
     12,
-    6,
-    6,
+    10,
+    10,
     13,
     2,
     2,
@@ -462,8 +466,8 @@
     6,
     6,
     6,
-    10,
-    10,
+    14,
+    14,
     12,
     0,
     0,
@@ -563,10 +567,10 @@
       "rgb": "rgb(139, 87, 42)"
     },
     {
-      "r": 139,
-      "g": 87,
-      "b": 42,
-      "rgb": "rgb(139, 87, 42)"
+      "r": 137,
+      "g": 255,
+      "b": 0,
+      "rgb": "rgb(137, 255, 0)"
     },
     {
       "r": 0,
