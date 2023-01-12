@@ -342,22 +342,22 @@
     },
     {
       "keyCode": 53878,
-      "label": "26",
+      "label": "unfol",
       "extraLabel": "MACRO"
     },
     {
       "keyCode": 53870,
-      "label": "VS-fo",
+      "label": "vs-fo",
       "extraLabel": "MACRO"
     },
     {
       "keyCode": 53871,
-      "label": "VS-un",
+      "label": "vs-un",
       "extraLabel": "MACRO"
     },
     {
       "keyCode": 53877,
-      "label": "25",
+      "label": "fold-",
       "extraLabel": "MACRO"
     },
     {
