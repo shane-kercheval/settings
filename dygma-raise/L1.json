@@ -377,10 +377,9 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 17452,
+      "label": "3",
+      "extraLabel": "SHIFT"
     },
     {
       "keyCode": 0,
@@ -467,7 +466,7 @@
     6,
     6,
     14,
-    14,
+    0,
     12,
     0,
     0,

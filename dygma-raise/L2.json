@@ -182,14 +182,16 @@
       "verbose": "Page Down"
     },
     {
-      "keyCode": 6191,
-      "label": "[",
-      "extraLabel": "S+G+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 6192,
-      "label": "]",
-      "extraLabel": "S+G+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 40,
@@ -368,9 +370,10 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 2325,
-      "label": "R",
-      "extraLabel": "C+S+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 65535,
@@ -438,14 +441,16 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 53872,
-      "label": "vs-de",
-      "extraLabel": "MACRO"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
-      "keyCode": 4869,
-      "label": "B",
-      "extraLabel": "C+A+G+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 17496,
@@ -500,8 +505,8 @@
     0,
     0,
     2,
-    6,
-    6,
+    14,
+    14,
     9,
     9,
     6,
@@ -514,7 +519,7 @@
     6,
     6,
     13,
-    7,
+    14,
     14,
     7,
     7,
@@ -522,8 +527,8 @@
     7,
     13,
     13,
-    5,
-    5,
+    14,
+    14,
     8,
     2,
     8,
