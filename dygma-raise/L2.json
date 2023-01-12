@@ -344,9 +344,14 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 53878,
-      "label": "unfol",
-      "extraLabel": "MACRO"
+      "keyCode": 301,
+      "label": "-",
+      "extraLabel": "C+"
+    },
+    {
+      "keyCode": 2349,
+      "label": "-",
+      "extraLabel": "C+S+"
     },
     {
       "keyCode": 53870,
@@ -354,13 +359,8 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 53871,
-      "label": "vs-un",
-      "extraLabel": "MACRO"
-    },
-    {
       "keyCode": 53877,
-      "label": "fold-",
+      "label": "vs-un",
       "extraLabel": "MACRO"
     },
     {
@@ -409,16 +409,14 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 20498,
+      "label": "DOWN",
+      "extraLabel": "M.Wheel"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 20497,
+      "label": "UP",
+      "extraLabel": "M.Wheel"
     },
     {
       "keyCode": 0,
@@ -432,8 +430,10 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 44,
-      "label": "SPACE"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 53856,
@@ -495,8 +495,8 @@
     2,
     2,
     2,
-    14,
-    14,
+    10,
+    10,
     13,
     0,
     0,
@@ -523,14 +523,14 @@
     14,
     7,
     7,
-    7,
-    7,
+    6,
+    6,
     13,
     13,
     14,
     14,
     8,
-    2,
+    14,
     8,
     14,
     6,

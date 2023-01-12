@@ -358,9 +358,9 @@
       "extraLabel": "SUPER"
     },
     {
-      "keyCode": 53874,
-      "label": "home-",
-      "extraLabel": "MACRO"
+      "keyCode": 53980,
+      "label": "space",
+      "extraLabel": "SUPER"
     },
     {
       "keyCode": 17451,
@@ -382,10 +382,9 @@
       "extraLabel": "SHIFT"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53874,
+      "label": "home-",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 80,
@@ -465,7 +464,7 @@
     6,
     6,
     6,
-    14,
+    12,
     0,
     12,
     0,

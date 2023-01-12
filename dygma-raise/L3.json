@@ -43,10 +43,9 @@
   ],
   "keymap": [
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 6206,
+      "label": "F5",
+      "extraLabel": "S+G+"
     },
     {
       "keyCode": 62,
@@ -186,10 +185,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53881,
+      "label": "vs-un",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -204,10 +202,8 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 65,
+      "label": "F8"
     },
     {
       "keyCode": 0,
@@ -251,10 +247,9 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53878,
+      "label": "vs-fo",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -441,10 +436,9 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53880,
+      "label": "pytho",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 65535,
@@ -514,7 +508,7 @@
     }
   ],
   "colormap": [
-    14,
+    13,
     5,
     5,
     9,
@@ -531,7 +525,7 @@
     14,
     14,
     7,
-    14,
+    7,
     14,
     14,
     14,
@@ -544,6 +538,7 @@
     14,
     14,
     14,
+    7,
     14,
     14,
     14,
@@ -556,11 +551,10 @@
     14,
     14,
     14,
+    7,
     14,
     14,
-    14,
-    14,
-    14,
+    7,
     14,
     14,
     14,
