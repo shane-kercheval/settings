@@ -430,10 +430,8 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 77,
+      "label": "END"
     },
     {
       "keyCode": 53856,
@@ -530,7 +528,7 @@
     14,
     14,
     8,
-    14,
+    6,
     8,
     14,
     6,
