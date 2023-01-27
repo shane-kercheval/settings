@@ -279,9 +279,10 @@
       "extraLabel": "G+"
     },
     {
-      "keyCode": 4913,
-      "label": "\\",
-      "extraLabel": "C+A+G+"
+      "keyCode": 0,
+      "label": "KEY",
+      "extraLabel": "NO",
+      "verbose": "Disabled"
     },
     {
       "keyCode": 65535,
@@ -510,7 +511,7 @@
     6,
     9,
     9,
-    7,
+    14,
     7,
     7,
     6,
