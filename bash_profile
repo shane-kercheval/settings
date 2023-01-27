@@ -91,3 +91,8 @@ profile_function() {
 profile_memory() {
     python -m memory_profiler $1
 }
+
+# if running in .zshrc
+if [ -f ~/.bash_profile ]; then 
+    . ~/.bash_profile;
+fi
