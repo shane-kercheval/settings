@@ -354,12 +354,14 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 74,
-      "label": "HOME"
+      "keyCode": 53981,
+      "label": "end e",
+      "extraLabel": "SUPER"
     },
     {
-      "keyCode": 77,
-      "label": "END"
+      "keyCode": 53980,
+      "label": "space",
+      "extraLabel": "SUPER"
     },
     {
       "keyCode": 17451,
@@ -376,13 +378,13 @@
       "label": "SPACE"
     },
     {
-      "keyCode": 53981,
-      "label": "end e",
-      "extraLabel": "SUPER"
+      "keyCode": 17452,
+      "label": "3",
+      "extraLabel": "SHIFT"
     },
     {
       "keyCode": 53874,
-      "label": "enter",
+      "label": "home-",
       "extraLabel": "MACRO"
     },
     {
@@ -430,8 +432,8 @@
     2,
     2,
     12,
-    6,
-    6,
+    10,
+    10,
     13,
     2,
     2,
@@ -463,8 +465,8 @@
     6,
     6,
     6,
-    10,
-    10,
+    12,
+    0,
     12,
     0,
     0,
