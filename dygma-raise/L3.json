@@ -440,10 +440,9 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53875,
+      "label": "asser",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 0,
@@ -532,7 +531,7 @@
     14,
     14,
     7,
-    14,
+    7,
     14,
     13,
     13,
