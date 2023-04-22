@@ -182,7 +182,7 @@
     },
     {
       "keyCode": 53881,
-      "label": "vs-un",
+      "label": "29",
       "extraLabel": "MACRO"
     },
     {
@@ -237,19 +237,18 @@
     },
     {
       "keyCode": 53872,
-      "label": "vs-de",
+      "label": "20",
       "extraLabel": "MACRO"
     },
     {
       "keyCode": 53878,
-      "label": "vs-fo",
+      "label": "26",
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 6922,
+      "label": "G",
+      "extraLabel": "Hyper+"
     },
     {
       "keyCode": 65535,
@@ -337,7 +336,7 @@
     },
     {
       "keyCode": 53879,
-      "label": "VS - ",
+      "label": "27",
       "extraLabel": "MACRO"
     },
     {
@@ -429,7 +428,7 @@
     },
     {
       "keyCode": 53880,
-      "label": "pytho",
+      "label": "28",
       "extraLabel": "MACRO"
     },
     {
@@ -440,7 +439,7 @@
     },
     {
       "keyCode": 53875,
-      "label": "asser",
+      "label": "23",
       "extraLabel": "MACRO"
     },
     {
@@ -517,7 +516,7 @@
     7,
     7,
     7,
-    14,
+    7,
     14,
     14,
     14,
@@ -664,10 +663,10 @@
       "rgb": "rgb(139, 87, 42)"
     },
     {
-      "r": 139,
-      "g": 87,
-      "b": 42,
-      "rgb": "rgb(139, 87, 42)"
+      "r": 137,
+      "g": 255,
+      "b": 0,
+      "rgb": "rgb(137, 255, 0)"
     },
     {
       "r": 0,
