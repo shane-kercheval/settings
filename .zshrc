@@ -10,6 +10,10 @@ alias pylinecount="find . -name '*.py' | xargs wc -l"
 alias sshlambda="ssh shane@lambda-quad-shane.local"
 alias sshaddlambda="ssh-add --apple-use-keychain ~/.ssh/lambda"
 
+alias docker_info="docker system info"
+alias docker_containers="docker ps -a"
+alias docker_monitor="docker stats"
+
 
 ssh_lambda() {
     sshaddlambda
