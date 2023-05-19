@@ -14,6 +14,20 @@ alias docker_info="docker system info"
 alias docker_containers="docker ps -a"
 alias docker_monitor="docker stats"
 
+alias nvidia_info="nvidia-smi"
+# https://unix.stackexchange.com/questions/38560/gpu-usage-monitoring-cuda
+alias nvidia_monitor="watch -d -n 1 nvidia-smi"
+alias nvidia_driver="dkms status nvidia"
+alias nvidia_driver2="cat /proc/driver/nvidia/version"
+alias cuda_info="nvcc --version"
+alias gpu_info="sudo lshw -C display"
+
+alias system_monitor="top"
+alias system_monitor2="htop"
+
+alias linux_cpu_info="lscpu"
+alias linux_cpu_info2="lscpu"
+
 
 ssh_lambda() {
     sshaddlambda
