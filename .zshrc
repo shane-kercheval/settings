@@ -8,7 +8,13 @@ alias browser5000='open http://127.0.0.1:5000'
 alias browser1234='open http://127.0.0.1:1234'
 alias pylinecount="find . -name '*.py' | xargs wc -l"
 alias sshlambda="ssh shane@lambda-quad-shane.local"
+alias sshaddlambda="ssh-add --apple-use-keychain ~/.ssh/lambda"
 
+
+ssh_lambda() {
+    sshaddlambda
+    sshlambda
+}
 
 keepawake() {
     if [[ "$1" == "" ]]
