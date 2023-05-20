@@ -1,11 +1,4 @@
-alias nlp='cd ~/repos/nlp-template'
-alias helpsk='cd ~/repos/python-helpers'
-alias shiny='cd ~/repos/shiny-explore-dataset'
-alias dst='cd ~/repos/data-science-template'
-alias insights='cd ~/repos/insights'
 alias jup='jupyter notebook'
-alias browser5000='open http://127.0.0.1:5000'
-alias browser1234='open http://127.0.0.1:1234'
 alias pylinecount="find . -name '*.py' | xargs wc -l"
 alias sshlambda="ssh shane@lambda-quad-shane.local"
 alias sshaddlambda="ssh-add --apple-use-keychain ~/.ssh/lambda"
@@ -24,6 +17,8 @@ alias gpu_info="sudo lshw -C display"
 
 alias system_monitor="top"
 alias system_monitor2="htop"
+alias system_info="uname -a"
+alias linux_distro_version="lsb_release -a"
 
 alias linux_cpu_info="lscpu"
 alias linux_cpu_info2="lscpu"
@@ -59,6 +54,15 @@ browser() {
 # https://superuser.com/questions/1213886/how-to-open-port-via-ssh-tunnel
 ssh_port() {
     ssh -NL $1:127.0.0.1:$1 shane@lambda-quad-shane.local
+}
+
+####
+# Git
+####
+git_save() {
+    git add .
+    git commit -a -m $1
+    git push
 }
 
 ####
