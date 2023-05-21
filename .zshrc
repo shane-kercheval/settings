@@ -97,7 +97,6 @@ git_push() {
     git push
 }
 
-
 ####
 # Conda
 ####
