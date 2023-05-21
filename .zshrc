@@ -30,6 +30,9 @@ ssh_lambda() {
 }
 
 keepawake() {
+    # prevents the computer from sleeping
+    # args:
+    #   $1: the number of hours to sleep; if not provided, it defaults to 1 hour
     if [[ "$1" == "" ]]
     then
         caffeinate -d -t 3600
@@ -39,6 +42,9 @@ keepawake() {
 }
 
 show() {
+    # command to show contents of a directory
+    # args:
+    #   $1: the path to the directory; if not provided, defaults to the current directory
     if [[ "$1" == "" ]]
     then
         ls -al .
@@ -59,11 +65,38 @@ ssh_port() {
 ####
 # Git
 ####
-git_save() {
+git_pull() {
+    # does a git pull without creating a merge commit
+    # https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci
+    # args:
+    #   $1: the directory to do pull from; if not provided, defaults to current directory
+    if [[ "$1" == "" ]]
+    then
+        git pull --ff-only
+    else
+        git -C $1 pull --ff-only
+    fi
+    
+}
+
+git_pull_all() {
+    git -C ~/repos/docker pull --ff-only
+    git -C ~/repos/job-search pull --ff-only
+    git -C ~/repos/local-llm pull --ff-only
+    git -C ~/repos/nlp-template pull --ff-only
+    git -C ~/repos/openai-template pull --ff-only
+    git -C ~/repos/project-template pull --ff-only
+    git -C ~/repos/python-examples pull --ff-only
+    git -C ~/repos/python-helpers pull --ff-only
+    git -C ~/repos/settings pull --ff-only
+}
+
+git_push() {
     git add .
     git commit -a -m $1
     git push
 }
+
 
 ####
 # Conda
@@ -84,8 +117,8 @@ conda_remove() {
 ####
 # Profiling
 ####
-# Run cProfile on python file (first argument) and optional output file (optional second argument)
 profile_file() {
+    # Run cProfile on python file (first argument) and optional output file (optional second argument)
     if [[ "$2" != "" ]]
     then
         python -m cProfile -o $2 $1
@@ -96,11 +129,11 @@ profile_file() {
 }
 # Run visualize profile output from cProfile
 profile_viz() {
-    if [[ "$1" != "" ]]
+    if [[ "$1" == "" ]]
     then
-        snakeviz $1
-    else
         snakeviz profile.stats
+    else
+        snakeviz $1
     fi
 }
 # profile a function
@@ -118,6 +151,13 @@ profile_function() {
 
 profile_memory() {
     python -m memory_profiler $1
+}
+
+update_zsh() {
+    # for some reason the subsequent lines don't run if I include git command
+    git -C ~/repos/settings pull --ff-only
+    cp ~/repos/settings/.zshrc ~/
+    source ~/.zshrc
 }
 
 # if running in .zshrc
