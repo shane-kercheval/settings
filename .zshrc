@@ -93,7 +93,7 @@ git_pull_all() {
 
 git_push() {
     git add .
-    git commit -a -m $1
+    git commit -m $1
     git push
 }
 
