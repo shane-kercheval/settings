@@ -237,7 +237,7 @@
     },
     {
       "keyCode": 53872,
-      "label": "20",
+      "label": "vs-de",
       "extraLabel": "MACRO"
     },
     {
@@ -275,22 +275,19 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 4621,
+      "label": "J",
+      "extraLabel": "A+G+"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 4622,
+      "label": "K",
+      "extraLabel": "A+G+"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 4623,
+      "label": "L",
+      "extraLabel": "A+G+"
     },
     {
       "keyCode": 0,
@@ -422,7 +419,7 @@
     },
     {
       "keyCode": 53883,
-      "label": "docst",
+      "label": "31",
       "extraLabel": "MACRO"
     },
     {
@@ -548,9 +545,9 @@
     14,
     14,
     14,
-    14,
-    14,
-    14,
+    7,
+    7,
+    7,
     14,
     8,
     14,

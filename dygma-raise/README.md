@@ -8,6 +8,43 @@ For example, I'm too old to be moving around backspace and enter even though tho
 
 ---
 
+
+macros:
+- 2. lockl screen
+screen capture
+vs-terminal
+vs-last-edit
+end-enter
+self
+open-slack
+open- vs code
+open github desktop
+open bear
+open chrome
+end of line
+end-colon-enter
+up-five-lines
+16. down-five-lines
+00
+000
+vs fold
+vs unfold
+vs debug current-test
+space=space
+23. enterup
+no name
+no name
+.....
+
+
+Layer 2 - N key | CTRL + - | Go back (VS Code Shortcut) 
+Layer 2 - M key | CTRL + Shift + - | Go Foward (VS Code Shortcut) 
+
+Layer 3 - K key | CMD + ALT + K | Toggle Bookmark
+Layer 3 - J key | CMD + ALT + J | Go to last Bookmark
+Layer 3 - L key | CMD + ALT + L | Go to next Bookmark
+
+
 # Layer 1 - General
 
 ![layer1](images/layer-1.png)
