@@ -40,9 +40,10 @@ no name
 Layer 2 - N key | CTRL + - | Go back (VS Code Shortcut) 
 Layer 2 - M key | CTRL + Shift + - | Go Foward (VS Code Shortcut) 
 
-Layer 3 - K key | CMD + ALT + K | Toggle Bookmark
-Layer 3 - J key | CMD + ALT + J | Go to last Bookmark
-Layer 3 - L key | CMD + ALT + L | Go to next Bookmark
+Layer 3 - K key | CMD + ALT + K | Toggle Bookmark (VS Code Shortcut)
+Layer 3 - J key | CMD + ALT + J | Go to last Bookmark (VS Code Shortcut)
+Layer 3 - L key | CMD + ALT + L | Go to next Bookmark (VS Code Shortcut)
+Layer 3 - R key | Shift F12 | Find all References (VS Code Shortcut)
 
 
 # Layer 1 - General
