@@ -19,9 +19,17 @@
 		"scope": "python",
 		"prefix": "f",
 		"body": [
-			"f\"$1{$2}$3\"$0"
+			"f\"$1{$2:,}$3\"$0"
 		],
 		"description": "insert f-string"
+	},
+    "pandas-peak": {
+		"scope": "python",
+		"prefix": "peak",
+		"body": [
+			"iloc[0].transpose()$0"
+		],
+		"description": "pandas - reset index"
 	},
     "pandas-reset-index": {
 		"scope": "python",
@@ -31,13 +39,61 @@
 		],
 		"description": "pandas - reset index"
 	},
+    "pandas-rename-columns": {
+		"scope": "python",
+		"prefix": "rename",
+		"body": [
+			"rename(columns={'$1': '$2'})$0"
+		],
+		"description": "pandas - reset index"
+	},
+    "pandas-groupby": {
+		"scope": "python",
+		"prefix": "groupby",
+		"body": [
+			"def f(x):\n    d = dict()\n    $0d['Num Records'] = len(x)\n    return pd.Series(d)\n\ngrouped_${1:df} = ${1:df}.\\\n    groupby(['${2:column}']).\\\n    apply(f).\\\n    reset_index().\\\n    sort_values('${3:column}', ascending=False)\n\ngrouped_${1:df}.head()"
+		],
+		"description": "pandas - groupby"
+	},
+    "pandas-apply": {
+		"scope": "python",
+		"prefix": "apply",
+		"body": [
+			"apply(lambda x: ${1:x})$0"
+		],
+		"description": "pandas - reset index"
+	},
+    "pandas-sort-values": {
+		"scope": "python",
+		"prefix": "sort_values",
+		"body": [
+			"sort_values(['${1:column}'], ascending=${2:False})\n$0"
+		],
+		"description": "pandas - reset index"
+	},
     "pandas-filter": {
         "scope": "python",
 		"prefix": "pdfilter",
 		"body": [
-			"$1 = $1[$1.apply(lambda x: $2(x), axis=1)]. \\\n    reset_index(drop=True)\n$0"
+			"$1 = $1[$1.apply(lambda x: $2(x), axis=1)]. \\\n    reset_index(drop=True)$0"
 		],
 		"description": "pandas - filter dataframe"
+    },
+    "pandas-style": {
+        "scope": "python",
+		"prefix": "style",
+		"body": [
+			"style.hide(axis='index').bar(subset=['${1:column}'], color='${2:lightgray}').format({'${1:column}': '{:,.0f}'})$0"
+		],
+		"description": "pandas - filter dataframe"
+    },
+    "pandas-merge": {
+        "scope": "python",
+		"prefix": "merge",
+		"body": [
+			"pd.merge(\n    $1,\n    $2,\n    on='$3',\n    how='${4:inner}'\n)\n$0"
+		],
+		"description": "pandas - merge dataframes"
     },
     "pandas-to-csv": {
 		"scope": "python",
@@ -47,13 +103,21 @@
 		],
 		"description": "pandas - to csv"
 	},
+    "sorted-dictionary": {
+		"scope": "python",
+		"prefix": "sortdict",
+		"body": [
+			"${1:x} = dict(sorted(${1:x}.items(), key=lambda i: i[1], reverse=${2:True}))$0"
+		],
+		"description": "sort a dictionary"
+	},
     "function-definition": {
         "scope": "python",
 		"prefix": "def",
 		"body": [
 			"def ${1:func}(${2:arg}: ${3:type}) -> ${4:return_type}:\n    $0"
 		],
-		"description": "create function"
+		"description": "create a function"
     },
     "doc-string": {
         "scope": "python",
@@ -63,12 +127,60 @@
 		],
 		"description": "insert doc-string"
     },
-    "with-open-read": {
+    "main": {
         "scope": "python",
-		"prefix": "open",
+		"prefix": "main",
+		"body": [
+			"def main():\n    ${0:pass}\n\n\nif __name__ == '__main__':\n    main()\n\n"
+		],
+		"description": "createa a main function"
+    },
+    "px_free_axis": {
+        "scope": "python",
+		"prefix": "px_free_axis",
+		"body": [
+			"fig.update_${1:y}axes(matches=None)\nfig.for_each_${1:y}axis(lambda axis: axis.update(showticklabels=True))$0"
+		],
+		"description": "independent axix values per facet"
+    },
+    "size_of": {
+        "scope": "python",
+		"prefix": "size_of",
+		"body": [
+            "import sys\nprint(f\"{sys.getsizeof($1) / (1024**2): .2} MB\")$0"
+		],
+		"description": "get the size of an object in MB"
+    },
+    "read-file": {
+        "scope": "python",
+		"prefix": "read-file",
 		"body": [
 			"with open(${1:file_name}, '${2:r}') as handle:\n    ${3:content} = handle.readlines()\n    $0"
 		],
-		"description": "with open read"
+		"description": "Open and read from a file."
+    },
+    "read-yaml": {
+        "scope": "python",
+		"prefix": "read-yaml",
+		"body": [
+			"import yaml\nwith open(${1:file_name}) as handle:\n    ${2:yaml_data} = yaml.safe_load(handle)\n$0"
+		],
+		"description": "Open and read a yaml file."
+    },
+    "file_exists": {
+        "scope": "python",
+		"prefix": "file_exists",
+		"body": [
+            "import os.path\nos.path.isfile($1)$0"
+		],
+		"description": "check if a file exists"
+    },
+    "file_delete": {
+        "scope": "python",
+		"prefix": "file_delete",
+		"body": [
+            "import os\nos.remove($1)$0"
+		],
+		"description": "remove a file"
     },
 }
