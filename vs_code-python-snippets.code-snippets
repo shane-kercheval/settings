@@ -51,7 +51,19 @@
 		"scope": "python",
 		"prefix": "groupby",
 		"body": [
-			"def f(x):\n    d = dict()\n    $0d['Num Records'] = len(x)\n    return pd.Series(d)\n\ngrouped_${1:df} = ${1:df}.\\\n    groupby(['${2:column}']).\\\n    apply(f).\\\n    reset_index().\\\n    sort_values('${3:column}', ascending=False)\n\ngrouped_${1:df}.head()"
+			"def f(x):",
+            "    d = dict()",
+            "    $0d['Num Records'] = len(x)",
+            "    return pd.Series(d)",
+            "",
+            "grouped_${1:df} = (",
+            "    ${1:df}",
+            "    .groupby(['${2:column}'])",
+            "    .apply(f)",
+            "    .reset_index()",
+            "    .sort_values('${3:column}', ascending=False)",
+            ")",
+            "grouped_${1:df}.head()"
 		],
 		"description": "pandas - groupby"
 	},
@@ -67,31 +79,33 @@
 		"scope": "python",
 		"prefix": "sort_values",
 		"body": [
-			"sort_values(['${1:column}'], ascending=${2:False})\n$0"
+			"sort_values(['${1:column}'], ascending=${2:False})",
+            "$0"
 		],
 		"description": "pandas - reset index"
 	},
-    "pandas-filter": {
-        "scope": "python",
-		"prefix": "pdfilter",
-		"body": [
-			"$1 = $1[$1.apply(lambda x: $2(x), axis=1)]. \\\n    reset_index(drop=True)$0"
-		],
-		"description": "pandas - filter dataframe"
-    },
     "pandas-style": {
         "scope": "python",
 		"prefix": "style",
 		"body": [
-			"style.hide(axis='index').bar(subset=['${1:column}'], color='${2:lightgray}').format({'${1:column}': '{:,.0f}'})$0"
+			"style",
+            ".hide(axis='index')",
+            ".bar(subset=['${1:column}'], color='${2:lightgray}')",
+            ".format({'${1:column}': '{:,.0f}'})$0"
 		],
-		"description": "pandas - filter dataframe"
+		"description": "pandas - style dataframe"
     },
     "pandas-merge": {
         "scope": "python",
 		"prefix": "merge",
 		"body": [
-			"pd.merge(\n    $1,\n    $2,\n    on='$3',\n    how='${4:inner}'\n)\n$0"
+			"pd.merge(",
+            "    $1,",
+            "    $2,",
+            "    on='$3',",
+            "    how='${4:inner}'",
+            ")",
+            "$0"
 		],
 		"description": "pandas - merge dataframes"
     },
@@ -99,7 +113,8 @@
 		"scope": "python",
 		"prefix": "csv",
 		"body": [
-			"$1.to_csv($2, index=False)\n$0"
+			"$1.to_csv($2, index=False)",
+            "$0"
 		],
 		"description": "pandas - to csv"
 	},
@@ -115,7 +130,8 @@
         "scope": "python",
 		"prefix": "def",
 		"body": [
-			"def ${1:func}(${2:arg}: ${3:type}) -> ${4:return_type}:\n    $0"
+			"def ${1:func}(${2:arg}: ${3:type}) -> ${4:return_type}:",
+            "    $0"
 		],
 		"description": "create a function"
     },
@@ -123,7 +139,16 @@
         "scope": "python",
 		"prefix": "doc",
 		"body": [
-			"\"\"\"\n${1:Description}\n\n>>> print(1)\n1\n\nArgs:\n    ${2:arg}: ${3:description}\n\"\"\"\n$0"
+			"\"\"\"",
+            "${1:Description}",
+            "",
+            ">>> print(1)",
+            "1",
+            "",
+            "Args:",
+            "    ${2:arg}: ${3:description}",
+            "\"\"\"",
+            "$0"
 		],
 		"description": "insert doc-string"
     },
@@ -131,23 +156,97 @@
         "scope": "python",
 		"prefix": "main",
 		"body": [
-			"def main():\n    ${0:pass}\n\n\nif __name__ == '__main__':\n    main()\n\n"
+			"def main():",
+            "    ${0:pass}",
+            "",
+            "",
+            "if __name__ == '__main__':",
+            "    main()",
+            ""
 		],
 		"description": "createa a main function"
+    },
+    "px_plot": {
+        "scope": "python",
+		"prefix": "px_plot",
+		"body": [
+			"fig = px.${1:bar}(",
+            "    data_frame=${2:df},",
+            "    x='${3:x}',",
+            "    y='${4:y}',",
+            "    labels={'${3:x}': \"${5:x-label}\", '${4:y}': \"${6:y-label}\"},",
+            "    title=\"${7:title}<br><sup>${8:subtitle}</sup>\",",
+            ")",
+            "fig.show()$0"
+		],
+		"description": "independent axix values per facet"
+    },
+    "px_axis_label_rotate": {
+        "scope": "python",
+		"prefix": "px_axis_label_rotate",
+		"body": [
+			"fig.update_${1:x}axes(tickangle=${2:90})$0",
+		],
+		"description": "rotate the labels in an axis"
+    },
+    "px_axis_reverse": {
+        "scope": "python",
+		"prefix": "px_axis_reverse",
+		"body": [
+			"fig.update_${1:y}axes(autorange=\"reversed\")$0",
+		],
+		"description": "independent axix values per facet"
     },
     "px_free_axis": {
         "scope": "python",
 		"prefix": "px_free_axis",
 		"body": [
-			"fig.update_${1:y}axes(matches=None)\nfig.for_each_${1:y}axis(lambda axis: axis.update(showticklabels=True))$0"
+			"fig.update_${1:y}axes(matches=None)",
+            "fig.for_each_${1:y}axis(lambda axis: axis.update(showticklabels=True))$0"
 		],
 		"description": "independent axix values per facet"
     },
+    "px_log_10_axis": {
+        "scope": "python",
+		"prefix": "px_log_10_axis",
+		"body": [
+            "def px_log_10_axis(fig, min_value: int | float, max_value: int | float, step: int | float, axis:str = 'x'):",
+            "    \"\"\"",
+            "    Use this function to transform the ticks/labels of the x-axis of a plotly-express graph to",
+            "    log10.",
+            "",
+            "    Example:",
+            "",
+            "    ```",
+            "    fig = px.histogram(",
+            "        np.log10(values),",
+            "        title=\"Histogram of 'values' (Log10)\"",
+            "    )",
+            "    px_log_10_axis(fig)",
+            "    ```",
+            "    \"\"\"",
+            "    import numpy as np",
+            "    values = list(np.arange(min_value, max_value, step))",
+            "    axis_value = dict(",
+            "        tickvals=values,",
+            "        ticktext=[round(10 ** x) for x in values],",
+            "    )",
+            "    if axis == 'x':",
+            "        fig.update_layout(xaxis=axis_value)",
+            "    else:",
+            "        fig.update_layout(yaxis=axis_value)",
+            "    return fig",
+            "",
+            "px_log_10_axis(fig, axis='${1:x}', min_value=${2:0}, max_value=${3:1000}, step=${4:1})$0"
+        ],
+		"description": "independent axix values per facet"
+    },    
     "size_of": {
         "scope": "python",
 		"prefix": "size_of",
 		"body": [
-            "import sys\nprint(f\"{sys.getsizeof($1) / (1024**2): .2} MB\")$0"
+            "import sys",
+            "print(f\"{sys.getsizeof($1) / (1024**2): .2} MB\")$0"
 		],
 		"description": "get the size of an object in MB"
     },
@@ -155,7 +254,9 @@
         "scope": "python",
 		"prefix": "read-file",
 		"body": [
-			"with open(${1:file_name}, '${2:r}') as handle:\n    ${3:content} = handle.readlines()\n    $0"
+			"with open(${1:file_name}, '${2:r}') as _handle:",
+            "    ${3:content} = _handle.readlines()",
+            "$0"
 		],
 		"description": "Open and read from a file."
     },
@@ -163,7 +264,10 @@
         "scope": "python",
 		"prefix": "read-yaml",
 		"body": [
-			"import yaml\nwith open(${1:file_name}) as handle:\n    ${2:yaml_data} = yaml.safe_load(handle)\n$0"
+			"import yaml",
+            "with open(${1:file_name}) as _handle:",
+            "    ${2:yaml_data} = yaml.safe_load(_handle)",
+            "$0"
 		],
 		"description": "Open and read a yaml file."
     },
@@ -171,7 +275,8 @@
         "scope": "python",
 		"prefix": "file_exists",
 		"body": [
-            "import os.path\nos.path.isfile($1)$0"
+            "import os.path",
+            "os.path.isfile($1)$0"
 		],
 		"description": "check if a file exists"
     },
@@ -179,7 +284,8 @@
         "scope": "python",
 		"prefix": "file_delete",
 		"body": [
-            "import os\nos.remove($1)$0"
+            "import os",
+            "os.remove($1)$0"
 		],
 		"description": "remove a file"
     },
