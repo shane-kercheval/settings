@@ -339,4 +339,12 @@
         ],
         "description": "create lambda"
     },
+    "date_trunc": {
+        "scope": "python",
+        "prefix": "date_trunc",
+        "body": [
+            "${1:df}['${2:MONTH}'] = ${1:df}['${3:DATE}'].dt.to_period('M').dt.to_timestamp()$0",
+        ],
+        "description": "create lambda"
+    },
 }
