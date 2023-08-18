@@ -284,6 +284,14 @@
         ],
         "description": "display the quantiles of an array"
     },
+    "date_to_string": {
+        "scope": "python",
+        "prefix": "date_to_string",
+        "body": [
+            "strftime('%Y-%m-%d')$0"
+        ],
+        "description": "get the size of an object in MB"
+    },
     "size_of": {
         "scope": "python",
         "prefix": "size_of",
