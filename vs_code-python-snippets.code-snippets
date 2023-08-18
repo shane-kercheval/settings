@@ -109,6 +109,20 @@
         ],
         "description": "pandas - merge dataframes"
     },
+    "pandas-long": {
+        "scope": "python",
+        "prefix": "long",
+        "body": [
+            "pd.melt(",
+            "    ${1:wide_df},",
+            "    id_vars=['${2:ID}'],",
+            "    var_name='${3:Category}',",
+            "    value_name='${4:Value}',",
+            ")",
+            "$0"
+        ],
+        "description": "pandas - merge dataframes"
+    },
     "pandas-to-csv": {
         "scope": "python",
         "prefix": "csv",
