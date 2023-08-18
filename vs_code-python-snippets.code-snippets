@@ -61,7 +61,7 @@
             "    .groupby(['${2:column}'])",
             "    .apply(f)",
             "    .reset_index()",
-            "    .sort_values('${3:column}', ascending=False)",
+            "    .sort_values(['${2:column}'], ascending=False)",
             ")",
             "grouped_${1:df}.head()"
         ],
@@ -91,7 +91,7 @@
             "style",
             ".hide(axis='index')",
             ".bar(subset=['${1:column}'], color='${2:lightgray}')",
-            ".format({'${1:column}': '{:,.0f}'})$0"
+            ".format(subset=['${1:column}'], formatter=lambda x: f'{x:.1%}')$0"
         ],
         "description": "pandas - style dataframe"
     },
