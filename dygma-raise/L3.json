@@ -1,4 +1,17 @@
 {
+  "device": {
+    "vendor": "Dygma",
+    "product": "Raise",
+    "keyboardType": "ANSI",
+    "displayName": "Dygma Raise ANSI",
+    "urls": [
+      {
+        "name": "Homepage",
+        "url": "https://www.dygma.com/raise/"
+      }
+    ]
+  },
+  "language": "english",
   "layerNames": [
     {
       "id": 0,
@@ -458,10 +471,9 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
+      "keyCode": 309,
+      "label": "`",
+      "extraLabel": "C+"
     },
     {
       "keyCode": 65535,
@@ -561,7 +573,7 @@
     15,
     15,
     15,
-    15,
+    7,
     15,
     15,
     7,
