@@ -426,9 +426,9 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 53862,
-      "label": "list-",
-      "extraLabel": "MACRO"
+      "keyCode": 53981,
+      "label": "compr",
+      "extraLabel": "SUPER"
     },
     {
       "keyCode": 65535,
