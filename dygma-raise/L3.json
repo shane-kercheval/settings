@@ -201,10 +201,8 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
+      "keyCode": 655,
+      "label": "#655"
     },
     {
       "keyCode": 53860,
@@ -447,10 +445,9 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
+      "keyCode": 53868,
+      "label": "pytho",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 65535,
@@ -538,7 +535,7 @@
     15,
     7,
     7,
-    15,
+    7,
     15,
     13,
     15,
