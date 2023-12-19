@@ -405,8 +405,12 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 20498,
-      "label": "DOWN",
+      "keyCode": 44,
+      "label": "SPACE"
+    },
+    {
+      "keyCode": 20497,
+      "label": "UP",
       "extraLabel": "M.Wheel"
     },
     {
@@ -415,16 +419,9 @@
       "extraLabel": "M.Wheel"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 20498,
+      "label": "DOWN",
+      "extraLabel": "M.Wheel"
     },
     {
       "keyCode": 0,
