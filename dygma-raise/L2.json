@@ -1,4 +1,17 @@
 {
+  "device": {
+    "vendor": "Dygma",
+    "product": "Raise",
+    "keyboardType": "ANSI",
+    "displayName": "Dygma Raise ANSI",
+    "urls": [
+      {
+        "name": "Homepage",
+        "url": "https://www.dygma.com/raise/"
+      }
+    ]
+  },
+  "language": "english",
   "layerNames": [
     {
       "id": 0,
@@ -414,13 +427,13 @@
       "extraLabel": "M.Wheel"
     },
     {
-      "keyCode": 20497,
-      "label": "UP",
+      "keyCode": 20498,
+      "label": "DOWN",
       "extraLabel": "M.Wheel"
     },
     {
-      "keyCode": 20498,
-      "label": "DOWN",
+      "keyCode": 20497,
+      "label": "UP",
       "extraLabel": "M.Wheel"
     },
     {
