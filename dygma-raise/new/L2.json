@@ -425,27 +425,26 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
-    },
-    {
       "keyCode": 309,
       "label": "`",
       "extraLabel": "C+"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 53857,
+      "label": "vsc -",
+      "extraLabel": "MACRO"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
     },
     {
       "keyCode": 65535,
@@ -472,6 +471,7 @@
     }
   ],
   "colormap": [
+    13,
     0,
     0,
     0,
@@ -529,18 +529,18 @@
     15,
     15,
     15,
-    14,
-    14,
+    7,
+    7,
     13,
     15,
     15,
     15,
     15,
-    14,
-    15,
-    14,
     7,
     15,
+    7,
+    14,
+    15,
     6,
     6,
     6,
@@ -602,8 +602,7 @@
     6,
     6,
     6,
-    6,
-    13
+    6
   ],
   "palette": [
     {
