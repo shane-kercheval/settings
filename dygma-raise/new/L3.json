@@ -427,10 +427,9 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
+      "keyCode": 53861,
+      "label": "self.",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 65535,
@@ -530,7 +529,7 @@
     15,
     15,
     15,
-    15,
+    7,
     15,
     15,
     13,
