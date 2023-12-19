@@ -382,10 +382,9 @@
       "extraLabel": "SHIFT"
     },
     {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
+      "keyCode": 53864,
+      "label": "enter",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 80,
