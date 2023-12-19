@@ -175,9 +175,9 @@
       "verbose": "Page Up"
     },
     {
-      "keyCode": 75,
-      "label": "PAGE UP",
-      "verbose": "Page Up"
+      "keyCode": 53866,
+      "label": "up-te",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 53855,
@@ -194,9 +194,9 @@
       "extraLabel": "MACRO"
     },
     {
-      "keyCode": 78,
-      "label": "PAGE DOWN",
-      "verbose": "Page Down"
+      "keyCode": 53867,
+      "label": "down-",
+      "extraLabel": "MACRO"
     },
     {
       "keyCode": 65535,
@@ -443,21 +443,20 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 309,
-      "label": "`",
-      "extraLabel": "C+"
-    },
-    {
       "keyCode": 0,
       "label": "KEY",
       "extraLabel": "NO",
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 75,
+      "label": "PAGE UP",
+      "verbose": "Page Up"
+    },
+    {
+      "keyCode": 78,
+      "label": "PAGE DOWN",
+      "verbose": "Page Down"
     },
     {
       "keyCode": 65535,
@@ -549,9 +548,9 @@
     15,
     15,
     15,
+    10,
+    10,
     14,
-    15,
-    7,
     14,
     15,
     6,
