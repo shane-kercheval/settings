@@ -258,22 +258,19 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 6934,
+      "label": "S",
+      "extraLabel": "Hyper+"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 6919,
+      "label": "D",
+      "extraLabel": "Hyper+"
     },
     {
-      "keyCode": 0,
-      "label": "KEY",
-      "extraLabel": "NO",
-      "verbose": "Disabled"
+      "keyCode": 6921,
+      "label": "F",
+      "extraLabel": "Hyper+"
     },
     {
       "keyCode": 0,
@@ -537,9 +534,9 @@
     15,
     15,
     15,
-    15,
-    15,
-    15,
+    6,
+    6,
+    6,
     15,
     15,
     15,
@@ -707,8 +704,8 @@
     {
       "r": 248,
       "g": 231,
-      "b": 28,
-      "rgb": "rgb(248, 231, 28)"
+      "b": 2,
+      "rgb": "rgb(248, 231, 2)"
     },
     {
       "r": 189,
@@ -731,14 +728,14 @@
     {
       "r": 74,
       "g": 144,
-      "b": 226,
-      "rgb": "rgb(74, 144, 226)"
+      "b": 255,
+      "rgb": "rgb(74, 144, 255)"
     },
     {
-      "r": 255,
-      "g": 0,
-      "b": 32,
-      "rgb": "rgb(255, 0, 32)"
+      "r": 208,
+      "g": 2,
+      "b": 27,
+      "rgb": "rgb(208, 2, 27)"
     },
     {
       "r": 0,
