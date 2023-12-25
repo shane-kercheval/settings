@@ -9,7 +9,10 @@ alias docker_monitor="docker stats"
 
 alias nvidia_info="nvidia-smi"
 # https://unix.stackexchange.com/questions/38560/gpu-usage-monitoring-cuda
-alias nvidia_monitor="watch -d -n 1 nvidia-smi"
+# sudo apt install nvtop
+alias nvidia_monitor="nvtop"
+alias gpu="nvtop"
+# alias nvidia_monitor="watch -d -n 1 nvidia-smi"
 alias nvidia_driver="dkms status nvidia"
 alias nvidia_driver2="cat /proc/driver/nvidia/version"
 alias cuda_info="nvcc --version"
