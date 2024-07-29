@@ -74,16 +74,30 @@ Layer 3 - R key | Shift F12 | Find all References (VS Code Shortcut)
 
 ## Shortcuts
 
-### Visual Studio Shortcuts (light blue)
+### Layer 3 - Visual Studio Shortcuts (light blue)
 
-- key `;` i.e. `S-F10` - in Visual Studio `shift-F10` is a shortcut to bring up the context menu
-- key `\` i.e. `a-c-os-\` - Split Window - manually configured shortcut in VS-code
-- `a-c-os-B` - Toggle Breakpoint - manually configured shortcut in VS-code
-- `MACRO vs-de`: Debug Current Function
-- `MACRO VS-la`: VS Code - Go to Last Edit
-- `MACRO VS-te`: VS Code - Toggle/Go-To Terminal
-- key `n` i.e. `MACRO VS-un` - unfold code
-- key `m` i.e. `MACRO VS-fo` - fold code
+- `s`: split VS code window
+- `d`: debug unit test
+- `c`: debug cell
+- `enter`: toggle github copilot
+- `g`: github copilot chat
+- `f`: fold all
+- `u`: unfold recursively down single tree
+- `y`: unfold all
+- `b`: toggle breakpoint
+- `k`: toggle bookmark
+- `j`: move to previous bookmark
+- `l`: move to next bookmark
+- `;`: VS code context menu
+- `o`: open current file/view in new window
+- `m`: maximize current file/view
+- `r`: find all references
+- `t`: **create new** terminal
+- `left of left-space` - `click once`: write `self.`
+- `left left custom key`: write python doc string `"""x"""`
+- `left space` - `click once`: write `[x for x in ]`
+- `left space` - `click twice`: write `{k:v for k,v in }`
+
 
 ### Navigation
 
