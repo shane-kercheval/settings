@@ -1,5 +1,6 @@
 alias jup='jupyter notebook'
 alias pylinecount="find . -name '*.py' | xargs wc -l"
+alias ssh_start_agent='eval "$(ssh-agent -s)"'
 alias sshlambda="ssh shane@lambda-quad-shane.local"
 alias sshaddlambda="ssh-add --apple-use-keychain ~/.ssh/lambda"
 
