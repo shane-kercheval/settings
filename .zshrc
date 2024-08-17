@@ -83,15 +83,23 @@ git_pull() {
 }
 
 git_pull_all() {
-    git -C ~/repos/docker pull --ff-only
-    git -C ~/repos/job-search pull --ff-only
-    git -C ~/repos/local-llm pull --ff-only
-    git -C ~/repos/nlp-template pull --ff-only
-    git -C ~/repos/openai-template pull --ff-only
-    git -C ~/repos/project-template pull --ff-only
-    git -C ~/repos/python-examples pull --ff-only
-    git -C ~/repos/python-helpers pull --ff-only
-    git -C ~/repos/settings pull --ff-only
+    local repo_dir="$HOME/repos"
+    
+    # Check if the directory exists
+    if [[ -d "$repo_dir" ]]; then
+        # Iterate over each subdirectory in ~/repos
+        for dir in "$repo_dir"/*/; do
+            # Check if it's a git repository
+            if [[ -d "$dir/.git" ]]; then
+                echo "Updating repository: $dir"
+                git -C "$dir" pull
+            else
+                echo "Skipping non-repository directory: $dir"
+            fi
+        done
+    else
+        echo "Directory $repo_dir does not exist."
+    fi
 }
 
 git_push() {
