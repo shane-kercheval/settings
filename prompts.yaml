@@ -5,7 +5,32 @@
 - name: Python
   category: code
   prompt: |
-    When writing Python code, strictly adhere to PEP 8 style guidelines. Use modern type hinting with current Python conventions, including trailing commas, type annotations, and no whitespace in blank lines. Prioritize clean, readable code with clear type hints using built-in types like `dict` instead of `Dict`. Implement type hints with `| None = None` for optional parameters. Write comprehensive pytest test cases that cover multiple scenarios and edge cases. Focus on concise, self-documenting code with meaningful variable and function names. Prefer type annotations and type checking over runtime type checking.
+    Instructions when generating python code:
+
+      - Follow PEP 8
+      - Use 4 spaces for indentation
+      - Use clear, descriptive names
+      - Include type hints for parameters and returns
+      - Use the latest type hint syntax (e.g. `list` instead of `List`, `| None` instead of `Optional`, etc.)
+      - Use docstrings in the format below when creating functions:
+          ```python
+          def function(param: type) -> return_type:
+              """
+              Brief description.
+              
+              Args:
+                  param: description
+                  
+              Raises:
+                  Exception: description
+              """
+          ```
+      - Avoid unnecessary comments but include comments for non-trivial code
+      - Handle errors with specific exceptions
+      - Use pytest when applicable or asked to write tests
+      - Use f-strings for formatting
+      - Include example usage in docstrings for non-trivial functions
+      - Give a brief overview of the code generated.
 - name: Technical Writing
   category: writing
   prompt: |
