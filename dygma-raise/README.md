@@ -79,7 +79,7 @@ Layer 3 - R key | Shift F12 | Find all References (VS Code Shortcut)
 - `s`: split VS code window
 - `d`: debug unit test
 - `c`: debug cell
-- `enter`: toggle github copilot
+- `~`: toggle github copilot
 - `g`: github copilot chat
 - `f`: fold all
 - `u`: unfold recursively down single tree
