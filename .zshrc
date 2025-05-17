@@ -57,6 +57,18 @@ show() {
     fi
 }
 
+showt() {
+    # command to show contents of a directory in tree format
+    # args:
+    #   $1: the path to the directory; if not provided, defaults to the current directory
+    if [[ "$1" == "" ]]
+    then
+        tree . -a --gitignore -I ".git|.claude|.env|.venv|env" -C --dirsfirst
+    else
+        tree $1 -a --gitignore -I ".git|.claude|.env|.venv|env" -C --dirsfirst
+    fi
+}
+
 browser() {
     open http://127.0.0.1:$1
 }
